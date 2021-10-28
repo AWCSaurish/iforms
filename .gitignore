@@ -1,0 +1,8 @@
+*.class
+*.jar
+*.war
+*.zip
+target/
+.metadata
+Servers
+pom.properties
