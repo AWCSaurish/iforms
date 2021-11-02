@@ -1,4 +1,4 @@
-package com.awcsoftware.dto.poheader;
+package com.awcsoftware.dto.po;
 
 public class Root{
     private D d;

@@ -12,12 +12,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.awcsoftware.dto.PORequest;
-import com.awcsoftware.dto.POResponse;
-import com.awcsoftware.dto.poheader.Result;
+import com.awcsoftware.dto.mdm.MdmEmployeeMaster;
+import com.awcsoftware.dto.po.HeaderResult;
+import com.awcsoftware.dto.po.HistoryResult;
+import com.awcsoftware.dto.po.LineResult;
+import com.awcsoftware.dto.po.PORequest;
+import com.awcsoftware.dto.po.POResponse;
 import com.awcsoftware.services.IPOServices;
 import com.awcsoftware.services.impl.POServicesImpl;
-
 @RestController
 @RequestMapping({"/"})
 public class GMMCOController {
@@ -32,35 +34,37 @@ public class GMMCOController {
 	  }
 	  @PostMapping({"getPoHeader"})
 	  @ResponseBody
-	  public List<Result> getPoHeader(@RequestBody PORequest req)
+	  public List<HeaderResult> getPoHeader(@RequestBody PORequest req)
 	  {
 	    IPOServices services = (POServicesImpl)ctx.getBean(POServicesImpl.class);
-	    logger.info("PORequest: " + req);
 	    return services.getPoHeader(req.getFilter());
 	  }
 	  @PostMapping({"getPoLine"})
 	  @ResponseBody
-	  public List<com.awcsoftware.dto.poline.Result> getPoLine(@RequestBody PORequest req)
+	  public List<LineResult> getPoLine(@RequestBody PORequest req)
 	  {
 	    IPOServices services = (POServicesImpl)ctx.getBean(POServicesImpl.class);
-	    logger.info("PORequest: " + req);
 	    return services.getPOLines(req.getFilter());
 	  }
 	  @PostMapping({"getPoHistory"})
 	  @ResponseBody
-	  public void getPoHistory(@RequestBody PORequest req)
+	  public List<HistoryResult> getPoHistory(@RequestBody PORequest req)
 	  {
 	    IPOServices services = (POServicesImpl)ctx.getBean(POServicesImpl.class);
-	    logger.info("PORequest: " + req);
-	    services.getPOHistory(req.getFilter());
-	    //return services.getPOHistory(req.getFilter());
+	    return services.getPOHistory(req.getFilter());
 	  }
 	  @PostMapping({"getPoDetails"})
 	  @ResponseBody
 	  public POResponse getPoDetails(@RequestBody PORequest req)
 	  {
 	    IPOServices services = (POServicesImpl)ctx.getBean(POServicesImpl.class);
-	    logger.info("PORequest: " + req);
 	    return services.getPODetails(req.getFilter());
+	  }
+	  @GetMapping({"getEmployeeMasters"})
+	  @ResponseBody
+	  public List<MdmEmployeeMaster> getEmployeeMasters()
+	  {
+	    IPOServices services = (POServicesImpl)ctx.getBean(POServicesImpl.class);
+	    return services.getListOfEmployees();
 	  }
 }

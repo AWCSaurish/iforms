@@ -1,9 +1,8 @@
-package com.awcsoftware.dto.poline;
+package com.awcsoftware.dto.po;
 
-import com.awcsoftware.dto.Metadata;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Result{
+public class LineResult{
     @JsonProperty("AssetSubnum") 
     private String assetSubnum;
     @JsonProperty("FuncArea") 
@@ -584,7 +583,7 @@ public class Result{
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Result other = (Result) obj;
+		LineResult other = (LineResult) obj;
 		if (__metadata == null) {
 			if (other.__metadata != null)
 				return false;

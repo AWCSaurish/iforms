@@ -1,18 +1,15 @@
-package com.awcsoftware.dto.pohistory;
-
-import java.util.List;
+package com.awcsoftware.dto.po;
 
 public class D{
-    private List<Result> results;
-
-	public List<Result> getResults() {
+    private Object results;
+    public D() {
+	}
+	public Object getResults() {
 		return results;
 	}
-
-	public void setResults(List<Result> results) {
+	public void setResults(Object results) {
 		this.results = results;
 	}
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -20,7 +17,6 @@ public class D{
 		result = prime * result + ((results == null) ? 0 : results.hashCode());
 		return result;
 	}
-
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -37,7 +33,6 @@ public class D{
 			return false;
 		return true;
 	}
-
 	@Override
 	public String toString() {
 		return "D [results=" + results + "]";

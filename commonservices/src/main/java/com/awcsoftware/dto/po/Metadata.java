@@ -1,4 +1,4 @@
-package com.awcsoftware.dto;
+package com.awcsoftware.dto.po;
 
 public class Metadata {
 	private String id;

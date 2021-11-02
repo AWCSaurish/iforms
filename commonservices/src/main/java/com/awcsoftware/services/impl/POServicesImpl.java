@@ -1,7 +1,6 @@
 package com.awcsoftware.services.impl;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -12,9 +11,13 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-import com.awcsoftware.dto.POResponse;
-import com.awcsoftware.dto.poheader.Result;
-import com.awcsoftware.dto.poheader.Root;
+import com.awcsoftware.dao.IGmmcoMdmDao;
+import com.awcsoftware.dto.mdm.MdmEmployeeMaster;
+import com.awcsoftware.dto.po.HeaderResult;
+import com.awcsoftware.dto.po.HistoryResult;
+import com.awcsoftware.dto.po.LineResult;
+import com.awcsoftware.dto.po.POResponse;
+import com.awcsoftware.dto.po.Root;
 import com.awcsoftware.services.IPOServices;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -29,7 +32,7 @@ public class POServicesImpl implements IPOServices{
 	@Autowired
 	private POResponse response;
 	@Override
-	public List<Result> getPoHeader(String filter) {
+	public List<HeaderResult> getPoHeader(String filter) {
 		Root object=null;
 		GeneralServices services=ctx.getBean(GeneralServices.class);
 		JSONObject outputjson = services.poPullRequest(filter, PropertiesReader.getProp().getProperty("POUrl"));
@@ -38,32 +41,44 @@ public class POServicesImpl implements IPOServices{
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		return object.getD().getResults();
+		return (List<HeaderResult>) object.getD().getResults();
 	}
 	@Override
-	public List<com.awcsoftware.dto.poline.Result> getPOLines(String filter) {
-		com.awcsoftware.dto.poline.Root object=null;
+	public List<LineResult> getPOLines(String filter) {
+		Root object=null;
 		GeneralServices services=ctx.getBean(GeneralServices.class);
 		JSONObject outputjson=services.poPullRequest(filter, PropertiesReader.getProp().getProperty("POLineUrl"));
 		try {
-			object=objectMapper.readValue(outputjson.toString(),com.awcsoftware.dto.poline.Root.class);
+			object=objectMapper.readValue(outputjson.toString(),Root.class);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		return object.getD().getResults();
+		return (List<LineResult>) object.getD().getResults();
 	}
 	@Override
 	public POResponse getPODetails(String filter) {
-		 response.setHeader(getPoHeader(filter)); ;
-		 response.setLine(getPOLines(filter));;
+		 response.setHeader(getPoHeader(filter));
+		 response.setLine(getPOLines(filter));
+		 response.setHistory(getPOHistory(filter));
 		 return response;
 	}
 	@Override
-	public void getPOHistory(String filter) {
+	public List<HistoryResult> getPOHistory(String filter) {
+		Root object=null;
 		GeneralServices services=ctx.getBean(GeneralServices.class);
 		JSONObject outputjson=services.poPullRequest(filter, PropertiesReader.getProp().getProperty("POHistoryUrl"));
-		logger.info("outputjson :: "+outputjson);
+		try {
+			object=objectMapper.readValue(outputjson.toString(),Root.class);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return (List<HistoryResult>) object.getD().getResults();
 		
+	}
+	@Override
+	public List<MdmEmployeeMaster> getListOfEmployees() {
+		IGmmcoMdmDao dao=ctx.getBean(IGmmcoMdmDao.class);
+		return dao.getListOfEmployees();
 	}
 	
 }

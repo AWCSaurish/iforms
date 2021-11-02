@@ -15,13 +15,17 @@
 	<context:component-scan
 		base-package="com.awcsoftware.controller" />
 	<context:component-scan
-		base-package="com.awcsoftware.services.impl" />
-	<context:component-scan
 		base-package="com.awcsoftware.dao.impl" />
 	<context:component-scan
-		base-package="com.awcsoftware.dto" />
+		base-package="com.awcsoftware.dto.mdm" />
 	<context:component-scan
-		base-package="com.awcsoftware.dto.mapper" />
+		base-package="com.awcsoftware.dto.mdm.mapper" />
+	<context:component-scan
+		base-package="com.awcsoftware.dto.po" />				
+	<context:component-scan
+		base-package="com.awcsoftware.services.impl" />
+	
+	
 	
 	<bean
 		class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
@@ -31,6 +35,23 @@
 			<util:properties location="classpath:resrapi.properties" />
 		</property>
 	</bean>
+	
+	<bean class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource">
+			<bean class="org.apache.commons.dbcp2.BasicDataSource">
+				<property name="driver">
+					<bean class="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+				</property>
+				<property name="url"
+					value="jdbc:sqlserver://10.131.24.149:1433;databaseName=gmmco" />
+				<property name="username" value="sa" />
+				<property name="password" value="Chn#9m5c16" />
+				<property name="maxIdle" value="10" />
+				<property name="minIdle" value="5" />
+			</bean>
+		</property>
+	</bean>
+	
 	<bean class="org.json.simple.parser.JSONParser" scope="prototype"/>
 	<bean class="com.fasterxml.jackson.databind.ObjectMapper" scope="prototype"/>
 	<bean class="java.util.ArrayList" scope="prototype"/>

@@ -83,140 +83,19 @@
 			<artifactId>jaxb-api</artifactId>
 			<version>2.3.0</version>
 		</dependency>
-
-		<!-- Newgen API Starts -->
+		<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
 		<dependency>
-			<groupId>com.newgen.ibps.axis</groupId>
-			<artifactId>axis</artifactId>
-			<version>1.0</version>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1.1</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-client -->
 		<dependency>
-			<groupId>com.newgen.ibps.commons-codec-1.10</groupId>
-			<artifactId>commons-codec-1.10</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.commons-discovery-0.2</groupId>
-			<artifactId>commons-discovery-0.2</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.commons-logging</groupId>
-			<artifactId>commons-logging</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.dmsapi</groupId>
-			<artifactId>dmsapi</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.ISPack</groupId>
-			<artifactId>ISPack</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.jaxrpc</groupId>
-			<artifactId>jaxrpc</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.jdts</groupId>
-			<artifactId>jdts</artifactId>
-			<version>1.0</version>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>1.19.4</version>
 		</dependency>
 
-
-		<dependency>
-			<groupId>com.newgen.ibps.jersey-client-1.19</groupId>
-			<artifactId>jersey-client-1.19</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.jersey-core-1.9.1</groupId>
-			<artifactId>jersey-core-1.9.1</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.json-simple-1.1.1</groupId>
-			<artifactId>json-simple-1.1.1</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.json-simple-1.1</groupId>
-			<artifactId>json-simple-1.1</artifactId>
-			<version>1.0</version>
-		</dependency>
-
-
-		<dependency>
-			<groupId>com.newgen.ibps.ngejbcallbroker</groupId>
-			<artifactId>ngejbcallbroker</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.NIPLJ</groupId>
-			<artifactId>NIPLJ</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.nsms</groupId>
-			<artifactId>nsms</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.saaj</groupId>
-			<artifactId>saaj</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.stubwfs</groupId>
-			<artifactId>stubwfs</artifactId>
-			<version>1.0</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.newgen.ibps.wfsclient</groupId>
-			<artifactId>wfsclient</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.wfsshared</groupId>
-			<artifactId>wfsshared</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.wfwebserviceinvoker</groupId>
-			<artifactId>wfwebserviceinvoker</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.wfwebserviceshared</groupId>
-			<artifactId>wfwebserviceshared</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.wfxmlinterface</groupId>
-			<artifactId>wfxmlinterface</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.wrapper</groupId>
-			<artifactId>wrapper</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.wsdl4j</groupId>
-			<artifactId>wsdl4j</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.newgen.ibps.xom-1.2.6</groupId>
-			<artifactId>xom-1.2.6</artifactId>
-			<version>1.0</version>
-		</dependency>
-
-		<!-- Newgen API Ends -->
 
 
 	</dependencies>

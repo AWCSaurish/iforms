@@ -1,9 +1,8 @@
-package com.awcsoftware.dto.poheader;
+package com.awcsoftware.dto.po;
 
-import com.awcsoftware.dto.Metadata;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Result {
+public class HeaderResult {
 	
 	    private Metadata __metadata;
 	    @JsonProperty("PoNumber") 
@@ -153,7 +152,7 @@ public class Result {
 				return false;
 			if (getClass() != obj.getClass())
 				return false;
-			Result other = (Result) obj;
+			HeaderResult other = (HeaderResult) obj;
 			if (__metadata == null) {
 				if (other.__metadata != null)
 					return false;
