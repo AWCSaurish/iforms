@@ -64,6 +64,7 @@ public class GMMCOController {
 	  @ResponseBody
 	  public List<MdmEmployeeMaster> getEmployeeMasters()
 	  {
+		logger.info("Employee Master Called !");
 	    IPOServices services = (POServicesImpl)ctx.getBean(POServicesImpl.class);
 	    return services.getListOfEmployees();
 	  }

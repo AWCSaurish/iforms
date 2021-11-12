@@ -1,0 +1,97 @@
+2021-11-03 14:19:44 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6e2c9341: startup date [Wed Nov 03 14:19:44 IST 2021]; root of context hierarchy
+2021-11-03 14:19:44 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 14:21:08 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6e2c9341: startup date [Wed Nov 03 14:21:08 IST 2021]; root of context hierarchy
+2021-11-03 14:21:08 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 14:21:36 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6e2c9341: startup date [Wed Nov 03 14:21:36 IST 2021]; root of context hierarchy
+2021-11-03 14:21:36 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 14:22:35 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6dde5c8c: startup date [Wed Nov 03 14:22:35 IST 2021]; root of context hierarchy
+2021-11-03 14:22:35 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 15:07:43 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6e2c9341: startup date [Wed Nov 03 15:07:43 IST 2021]; root of context hierarchy
+2021-11-03 15:07:43 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 15:44:49 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7181ae3f: startup date [Wed Nov 03 15:44:49 IST 2021]; root of context hierarchy
+2021-11-03 15:44:49 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 15:44:50 INFO  EmployeeMasterClient:45 - JSON :: [{"sr_no":"1","employee_code":"E00000109\n","employee_name":"A K SHARMA\n","employee_email_id":"Aksharma01@gmail.com","division_code":"1D","division_description":"Product Division","location":"Delhi","department_code":"100","department_description":"Finance"},{"sr_no":"2","employee_code":"E00000113\n","employee_name":"T K Dey","employee_email_id":"Tkdey02@gmail.com","division_code":"2D","division_description":"IT Services","location":"Hyderabad","department_code":"101","department_description":"R & D"},{"sr_no":"3","employee_code":"E00000145\n\n","employee_name":"B Ghosh","employee_email_id":"Bghosh32@gmail.com","division_code":"3D","division_description":"Software","location":"Banglore","department_code":"102","department_description":"Administration"},{"sr_no":"4","employee_code":"E00000211\n","employee_name":"S D Joshi\n","employee_email_id":"sdjoshi42@gmail.com","division_code":"4D","division_description":"Accessories","location":"Pune","department_code":"103","department_description":"Human Resource"}]
+2021-11-03 15:46:59 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7181ae3f: startup date [Wed Nov 03 15:46:59 IST 2021]; root of context hierarchy
+2021-11-03 15:46:59 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 15:47:00 INFO  EmployeeMasterClient:44 - A message body reader for Java class com.awcsoftware.dto.mdm.MdmEmployeeMaster, and Java type class com.awcsoftware.dto.mdm.MdmEmployeeMaster, and MIME media type application/json was not found
+2021-11-03 15:52:34 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7181ae3f: startup date [Wed Nov 03 15:52:34 IST 2021]; root of context hierarchy
+2021-11-03 15:52:34 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 15:52:35 INFO  EmployeeMasterClient:47 - class org.json.simple.JSONArray cannot be cast to class org.json.simple.JSONObject (org.json.simple.JSONArray and org.json.simple.JSONObject are in unnamed module of loader 'app')
+2021-11-03 15:53:57 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7181ae3f: startup date [Wed Nov 03 15:53:57 IST 2021]; root of context hierarchy
+2021-11-03 15:53:57 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 16:12:05 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58a90037: startup date [Wed Nov 03 16:12:05 IST 2021]; root of context hierarchy
+2021-11-03 16:12:05 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 16:12:06 INFO  EmployeeMasterClient:54 - class java.util.LinkedHashMap cannot be cast to class com.awcsoftware.dto.mdm.MdmEmployeeMaster (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; com.awcsoftware.dto.mdm.MdmEmployeeMaster is in unnamed module of loader 'app')
+2021-11-03 16:12:45 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58a90037: startup date [Wed Nov 03 16:12:45 IST 2021]; root of context hierarchy
+2021-11-03 16:12:45 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 16:12:46 INFO  EmployeeMasterClient:54 - class java.util.LinkedHashMap cannot be cast to class com.awcsoftware.dto.mdm.MdmEmployeeMaster (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; com.awcsoftware.dto.mdm.MdmEmployeeMaster is in unnamed module of loader 'app')
+2021-11-03 16:16:02 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58a90037: startup date [Wed Nov 03 16:16:02 IST 2021]; root of context hierarchy
+2021-11-03 16:16:02 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 16:16:03 INFO  EmployeeMasterClient:50 - Master :: {department_code=100, employee_email_id=Aksharma01@gmail.com, department_description=Finance, sr_no=1, division_description=Product Division, employee_name=A K SHARMA
+, location=Delhi, employee_code=E00000109
+, division_code=1D}
+2021-11-03 16:16:03 INFO  EmployeeMasterClient:50 - Master :: {department_code=101, employee_email_id=Tkdey02@gmail.com, department_description=R & D, sr_no=2, division_description=IT Services, employee_name=T K Dey, location=Hyderabad, employee_code=E00000113
+, division_code=2D}
+2021-11-03 16:16:03 INFO  EmployeeMasterClient:50 - Master :: {department_code=102, employee_email_id=Bghosh32@gmail.com, department_description=Administration, sr_no=3, division_description=Software, employee_name=B Ghosh, location=Banglore, employee_code=E00000145
+
+, division_code=3D}
+2021-11-03 16:16:03 INFO  EmployeeMasterClient:50 - Master :: {department_code=103, employee_email_id=sdjoshi42@gmail.com, department_description=Human Resource, sr_no=4, division_description=Accessories, employee_name=S D Joshi
+, location=Pune, employee_code=E00000211
+, division_code=4D}
+2021-11-03 16:29:22 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58a90037: startup date [Wed Nov 03 16:29:22 IST 2021]; root of context hierarchy
+2021-11-03 16:29:22 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 16:29:23 INFO  EmployeeMasterClient:50 - Master :: class java.util.LinkedHashMap
+2021-11-03 16:29:23 INFO  EmployeeMasterClient:50 - Master :: class java.util.LinkedHashMap
+2021-11-03 16:29:23 INFO  EmployeeMasterClient:50 - Master :: class java.util.LinkedHashMap
+2021-11-03 16:29:23 INFO  EmployeeMasterClient:50 - Master :: class java.util.LinkedHashMap
+2021-11-03 16:34:07 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58a90037: startup date [Wed Nov 03 16:34:07 IST 2021]; root of context hierarchy
+2021-11-03 16:34:07 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 16:45:53 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58a90037: startup date [Wed Nov 03 16:45:53 IST 2021]; root of context hierarchy
+2021-11-03 16:45:53 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 16:45:54 INFO  EmployeeMasterClient:47 - class org.json.simple.JSONArray cannot be cast to class org.json.simple.JSONObject (org.json.simple.JSONArray and org.json.simple.JSONObject are in unnamed module of loader 'app')
+2021-11-03 16:52:42 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58a90037: startup date [Wed Nov 03 16:52:42 IST 2021]; root of context hierarchy
+2021-11-03 16:52:42 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 16:54:14 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58a90037: startup date [Wed Nov 03 16:54:14 IST 2021]; root of context hierarchy
+2021-11-03 16:54:14 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 17:05:11 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58a90037: startup date [Wed Nov 03 17:05:11 IST 2021]; root of context hierarchy
+2021-11-03 17:05:11 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 17:05:37 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58a90037: startup date [Wed Nov 03 17:05:37 IST 2021]; root of context hierarchy
+2021-11-03 17:05:37 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 17:06:59 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58a90037: startup date [Wed Nov 03 17:06:59 IST 2021]; root of context hierarchy
+2021-11-03 17:06:59 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 17:07:00 INFO  EmployeeMasterClient:48 - class org.json.simple.JSONObject cannot be cast to class com.awcsoftware.dto.mdm.MdmEmployeeMaster (org.json.simple.JSONObject and com.awcsoftware.dto.mdm.MdmEmployeeMaster are in unnamed module of loader 'app')
+2021-11-03 17:15:22 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58a90037: startup date [Wed Nov 03 17:15:22 IST 2021]; root of context hierarchy
+2021-11-03 17:15:22 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 17:15:45 INFO  EmployeeMasterClient:48 - java.net.ConnectException: Connection timed out: connect
+2021-11-03 17:16:12 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58a90037: startup date [Wed Nov 03 17:16:12 IST 2021]; root of context hierarchy
+2021-11-03 17:16:12 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 17:16:13 INFO  EmployeeMasterClient:48 - class org.json.simple.JSONObject cannot be cast to class com.awcsoftware.dto.mdm.MdmEmployeeMaster (org.json.simple.JSONObject and com.awcsoftware.dto.mdm.MdmEmployeeMaster are in unnamed module of loader 'app')
+2021-11-03 17:17:00 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58a90037: startup date [Wed Nov 03 17:17:00 IST 2021]; root of context hierarchy
+2021-11-03 17:17:00 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 17:17:01 INFO  EmployeeMasterClient:48 - class org.json.simple.JSONObject cannot be cast to class com.awcsoftware.dto.mdm.MdmEmployeeMaster (org.json.simple.JSONObject and com.awcsoftware.dto.mdm.MdmEmployeeMaster are in unnamed module of loader 'app')
+2021-11-03 17:19:16 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3bd94634: startup date [Wed Nov 03 17:19:16 IST 2021]; root of context hierarchy
+2021-11-03 17:19:16 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 17:23:20 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58a90037: startup date [Wed Nov 03 17:23:20 IST 2021]; root of context hierarchy
+2021-11-03 17:23:20 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-03 17:33:16 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58a90037: startup date [Wed Nov 03 17:33:16 IST 2021]; root of context hierarchy
+2021-11-03 17:33:16 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-11 14:20:44 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@276438c9: startup date [Thu Nov 11 14:20:44 IST 2021]; root of context hierarchy
+2021-11-11 14:20:44 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-11 14:20:45 INFO  EmployeeMasterClient:56 - Array Length :: 4
+2021-11-11 14:20:45 INFO  EmployeeMasterClient:57 - Arr :: [{"department_code":"100","employee_email_id":"Aksharma01@gmail.com","department_description":"Finance","sr_no":"1","division_description":"Product Division","employee_name":"A K SHARMA\n","location":"Delhi","employee_code":"E00000109\n","division_code":"1D"},{"department_code":"101","employee_email_id":"Tkdey02@gmail.com","department_description":"R & D","sr_no":"2","division_description":"IT Services","employee_name":"T K Dey","location":"Hyderabad","employee_code":"E00000113\n","division_code":"2D"},{"department_code":"102","employee_email_id":"Bghosh32@gmail.com","department_description":"Administration","sr_no":"3","division_description":"Software","employee_name":"B Ghosh","location":"Banglore","employee_code":"E00000145\n\n","division_code":"3D"},{"department_code":"103","employee_email_id":"sdjoshi42@gmail.com","department_description":"Human Resource","sr_no":"4","division_description":"Accessories","employee_name":"S D Joshi\n","location":"Pune","employee_code":"E00000211\n","division_code":"4D"}]
+2021-11-11 14:54:08 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@276438c9: startup date [Thu Nov 11 14:54:08 IST 2021]; root of context hierarchy
+2021-11-11 14:54:08 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-11 14:54:09 INFO  EmployeeMasterClient:55 - 1-->
+2021-11-11 14:54:09 INFO  EmployeeMasterClient:63 - 
+2021-11-11 14:54:29 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@276438c9: startup date [Thu Nov 11 14:54:29 IST 2021]; root of context hierarchy
+2021-11-11 14:54:29 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-11 14:54:52 INFO  EmployeeMasterClient:55 - 1-->
+2021-11-11 14:54:52 INFO  EmployeeMasterClient:57 - 2-->
+2021-11-11 14:54:52 INFO  EmployeeMasterClient:58 - Array Length :: 4
+2021-11-11 14:54:52 INFO  EmployeeMasterClient:59 - Arr :: [{"department_code":"100","employee_email_id":"Aksharma01@gmail.com","department_description":"Finance","sr_no":"1","division_description":"Product Division","employee_name":"A K SHARMA\n","location":"Delhi","employee_code":"E00000109\n","division_code":"1D"},{"department_code":"101","employee_email_id":"Tkdey02@gmail.com","department_description":"R & D","sr_no":"2","division_description":"IT Services","employee_name":"T K Dey","location":"Hyderabad","employee_code":"E00000113\n","division_code":"2D"},{"department_code":"102","employee_email_id":"Bghosh32@gmail.com","department_description":"Administration","sr_no":"3","division_description":"Software","employee_name":"B Ghosh","location":"Banglore","employee_code":"E00000145\n\n","division_code":"3D"},{"department_code":"103","employee_email_id":"sdjoshi42@gmail.com","department_description":"Human Resource","sr_no":"4","division_description":"Accessories","employee_name":"S D Joshi\n","location":"Pune","employee_code":"E00000211\n","division_code":"4D"}]
+2021-11-11 14:55:37 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@276438c9: startup date [Thu Nov 11 14:55:37 IST 2021]; root of context hierarchy
+2021-11-11 14:55:37 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-11 14:55:38 INFO  EmployeeMasterClient:55 - 1-->
+2021-11-11 14:55:38 INFO  EmployeeMasterClient:57 - 2-->
+2021-11-11 14:55:38 INFO  EmployeeMasterClient:58 - Array Length :: 4
+2021-11-11 14:55:38 INFO  EmployeeMasterClient:59 - Arr :: [{"department_code":"100","employee_email_id":"Aksharma01@gmail.com","department_description":"Finance","sr_no":"1","division_description":"Product Division","employee_name":"A K SHARMA\n","location":"Delhi","employee_code":"E00000109\n","division_code":"1D"},{"department_code":"101","employee_email_id":"Tkdey02@gmail.com","department_description":"R & D","sr_no":"2","division_description":"IT Services","employee_name":"T K Dey","location":"Hyderabad","employee_code":"E00000113\n","division_code":"2D"},{"department_code":"102","employee_email_id":"Bghosh32@gmail.com","department_description":"Administration","sr_no":"3","division_description":"Software","employee_name":"B Ghosh","location":"Banglore","employee_code":"E00000145\n\n","division_code":"3D"},{"department_code":"103","employee_email_id":"sdjoshi42@gmail.com","department_description":"Human Resource","sr_no":"4","division_description":"Accessories","employee_name":"S D Joshi\n","location":"Pune","employee_code":"E00000211\n","division_code":"4D"}]
