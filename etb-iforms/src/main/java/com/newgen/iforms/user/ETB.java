@@ -1,6 +1,5 @@
 package com.newgen.iforms.user;
 
-import org.apache.log4j.Logger;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -9,7 +8,7 @@ import com.newgen.iforms.custom.IFormReference;
 import com.newgen.iforms.custom.IFormServerEventHandler;
 
 public class ETB implements IFormListenerFactory {
-	final static Logger logger = Logger.getLogger(ETB.class);
+
 	@Override
 	public IFormServerEventHandler getClassInstance(IFormReference ifr) {
 		if("Indexer".equalsIgnoreCase(ifr.getActivityName())) {
@@ -20,4 +19,5 @@ public class ETB implements IFormListenerFactory {
 			return null;
 		}
 	}
+
 }
