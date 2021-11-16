@@ -6,10 +6,12 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.log4j.Logger;
 import org.json.simple.JSONArray;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+import com.awcsoftware.dao.IGmmcoDao;
 import com.newgen.iforms.EControl;
 import com.newgen.iforms.FormDef;
 import com.newgen.iforms.custom.IFormReference;
@@ -19,7 +21,8 @@ import com.newgen.mvcbeans.model.WorkdeskModel;
 @Component
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class Indexer implements IFormServerEventHandler {
-	
+	@Autowired
+	private IGmmcoDao dao;
 	
 	final static Logger logger = Logger.getLogger(Indexer.class);
 	public Indexer() {
@@ -27,8 +30,8 @@ public class Indexer implements IFormServerEventHandler {
 	}
     @Override
     public void beforeFormLoad(FormDef fd, IFormReference ifr) {
-    	logger.info("From Form Loaded Spring :: ");
-    	
+    	logger.info("From Form Loaded Spring 1 :: ");
+    	dao.getEmployeeMasters();
     }
 
     @Override
