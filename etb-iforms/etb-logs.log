@@ -1,0 +1,123 @@
+2021-11-12 13:08:50 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@588df31b: startup date [Fri Nov 12 13:08:50 IST 2021]; root of context hierarchy
+2021-11-12 13:08:50 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 13:08:51 WARN  ClassPathXmlApplicationContext:550 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.jdbc.core.JdbcTemplate#0' defined in class path resource [spring.xml]: Cannot create inner bean 'org.apache.commons.dbcp2.BasicDataSource#3f6b0be5' of type [org.apache.commons.dbcp2.BasicDataSource] while setting bean property 'dataSource'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.apache.commons.dbcp2.BasicDataSource] for bean with name 'org.apache.commons.dbcp2.BasicDataSource#3f6b0be5' defined in class path resource [spring.xml]; nested exception is java.lang.ClassNotFoundException: org.apache.commons.dbcp2.BasicDataSource
+2021-11-12 13:10:00 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46238e3f: startup date [Fri Nov 12 13:10:00 IST 2021]; root of context hierarchy
+2021-11-12 13:10:01 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 13:10:01 WARN  ClassPathXmlApplicationContext:550 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.jdbc.core.JdbcTemplate#0' defined in class path resource [spring.xml]: Cannot create inner bean 'org.apache.commons.dbcp2.BasicDataSource#1a18644' of type [org.apache.commons.dbcp2.BasicDataSource] while setting bean property 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.apache.commons.dbcp2.BasicDataSource#1a18644' defined in class path resource [spring.xml]: Cannot create inner bean 'com.microsoft.sqlserver.jdbc.SQLServerDriver#611889f4' of type [com.microsoft.sqlserver.jdbc.SQLServerDriver] while setting bean property 'driver'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.microsoft.sqlserver.jdbc.SQLServerDriver] for bean with name 'com.microsoft.sqlserver.jdbc.SQLServerDriver#611889f4' defined in class path resource [spring.xml]; nested exception is java.lang.ClassNotFoundException: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2021-11-12 13:10:46 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@32464a14: startup date [Fri Nov 12 13:10:46 IST 2021]; root of context hierarchy
+2021-11-12 13:10:46 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 13:11:29 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@32464a14: startup date [Fri Nov 12 13:11:29 IST 2021]; root of context hierarchy
+2021-11-12 13:11:29 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 13:12:12 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@32464a14: startup date [Fri Nov 12 13:12:12 IST 2021]; root of context hierarchy
+2021-11-12 13:12:12 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 13:12:54 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6cc7b4de: startup date [Fri Nov 12 13:12:54 IST 2021]; root of context hierarchy
+2021-11-12 13:12:54 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 13:12:56 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=1, employee_code=E00000109
+, employee_name=A K SHARMA
+, employee_email_id=Aksharma01@gmail.com, division_code=1D, division_description=Product Division, location=Delhi, department_code=100, department_description=Finance]
+2021-11-12 13:12:56 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=2, employee_code=E00000113
+, employee_name=T K Dey, employee_email_id=Tkdey02@gmail.com, division_code=2D, division_description=IT Services, location=Hyderabad, department_code=101, department_description=R & D]
+2021-11-12 13:12:56 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=3, employee_code=E00000145
+
+, employee_name=B Ghosh, employee_email_id=Bghosh32@gmail.com, division_code=3D, division_description=Software, location=Banglore, department_code=102, department_description=Administration]
+2021-11-12 13:12:56 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=4, employee_code=E00000211
+, employee_name=S D Joshi
+, employee_email_id=sdjoshi42@gmail.com, division_code=4D, division_description=Accessories, location=Pune, department_code=103, department_description=Human Resource]
+2021-11-12 13:23:37 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6cc7b4de: startup date [Fri Nov 12 13:23:37 IST 2021]; root of context hierarchy
+2021-11-12 13:23:37 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 13:23:39 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=1, employee_code=E00000109
+, employee_name=A K SHARMA
+, employee_email_id=Aksharma01@gmail.com, division_code=1D, division_description=Product Division, location=Delhi, department_code=100, department_description=Finance]
+2021-11-12 13:23:39 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=2, employee_code=E00000113
+, employee_name=T K Dey, employee_email_id=Tkdey02@gmail.com, division_code=2D, division_description=IT Services, location=Hyderabad, department_code=101, department_description=R & D]
+2021-11-12 13:23:39 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=3, employee_code=E00000145
+
+, employee_name=B Ghosh, employee_email_id=Bghosh32@gmail.com, division_code=3D, division_description=Software, location=Banglore, department_code=102, department_description=Administration]
+2021-11-12 13:23:39 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=4, employee_code=E00000211
+, employee_name=S D Joshi
+, employee_email_id=sdjoshi42@gmail.com, division_code=4D, division_description=Accessories, location=Pune, department_code=103, department_description=Human Resource]
+2021-11-12 16:15:54 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@799d4f69: startup date [Fri Nov 12 16:15:54 IST 2021]; root of context hierarchy
+2021-11-12 16:15:54 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 16:16:50 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@799d4f69: startup date [Fri Nov 12 16:16:50 IST 2021]; root of context hierarchy
+2021-11-12 16:16:50 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 16:21:58 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4e4aea35: startup date [Fri Nov 12 16:21:58 IST 2021]; root of context hierarchy
+2021-11-12 16:21:58 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 16:22:20 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4e4aea35: startup date [Fri Nov 12 16:22:20 IST 2021]; root of context hierarchy
+2021-11-12 16:22:20 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 16:23:42 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4e4aea35: startup date [Fri Nov 12 16:23:42 IST 2021]; root of context hierarchy
+2021-11-12 16:23:42 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 16:24:39 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4e4aea35: startup date [Fri Nov 12 16:24:39 IST 2021]; root of context hierarchy
+2021-11-12 16:24:39 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 16:36:08 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@517cd4b: startup date [Fri Nov 12 16:36:08 IST 2021]; root of context hierarchy
+2021-11-12 16:36:08 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 16:37:17 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@517cd4b: startup date [Fri Nov 12 16:37:17 IST 2021]; root of context hierarchy
+2021-11-12 16:37:17 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 16:38:55 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@517cd4b: startup date [Fri Nov 12 16:38:55 IST 2021]; root of context hierarchy
+2021-11-12 16:38:55 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 16:40:13 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@517cd4b: startup date [Fri Nov 12 16:40:13 IST 2021]; root of context hierarchy
+2021-11-12 16:40:13 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 16:40:34 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@517cd4b: startup date [Fri Nov 12 16:40:34 IST 2021]; root of context hierarchy
+2021-11-12 16:40:34 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 16:41:16 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64f6106c: startup date [Fri Nov 12 16:41:16 IST 2021]; root of context hierarchy
+2021-11-12 16:41:16 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 16:42:14 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@517cd4b: startup date [Fri Nov 12 16:42:14 IST 2021]; root of context hierarchy
+2021-11-12 16:42:14 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 16:55:34 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@517cd4b: startup date [Fri Nov 12 16:55:34 IST 2021]; root of context hierarchy
+2021-11-12 16:55:34 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 16:57:09 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@517cd4b: startup date [Fri Nov 12 16:57:09 IST 2021]; root of context hierarchy
+2021-11-12 16:57:09 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-12 16:57:40 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@517cd4b: startup date [Fri Nov 12 16:57:40 IST 2021]; root of context hierarchy
+2021-11-12 16:57:40 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-15 09:36:52 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@517cd4b: startup date [Mon Nov 15 09:36:52 IST 2021]; root of context hierarchy
+2021-11-15 09:36:53 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-15 10:05:36 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@517cd4b: startup date [Mon Nov 15 10:05:36 IST 2021]; root of context hierarchy
+2021-11-15 10:05:36 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-15 10:17:26 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@517cd4b: startup date [Mon Nov 15 10:17:26 IST 2021]; root of context hierarchy
+2021-11-15 10:17:26 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-15 10:18:44 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@517cd4b: startup date [Mon Nov 15 10:18:44 IST 2021]; root of context hierarchy
+2021-11-15 10:18:44 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-15 10:19:38 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7cbd213e: startup date [Mon Nov 15 10:19:38 IST 2021]; root of context hierarchy
+2021-11-15 10:19:38 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-15 11:50:03 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6cc7b4de: startup date [Mon Nov 15 11:50:03 IST 2021]; root of context hierarchy
+2021-11-15 11:50:03 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-15 11:50:48 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6cc7b4de: startup date [Mon Nov 15 11:50:48 IST 2021]; root of context hierarchy
+2021-11-15 11:50:48 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-15 11:50:52 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2021-11-15 11:57:10 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6cc7b4de: startup date [Mon Nov 15 11:57:10 IST 2021]; root of context hierarchy
+2021-11-15 11:57:11 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-15 11:57:13 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=1, employee_code=E00000109
+, employee_name=A K SHARMA
+, employee_email_id=Aksharma01@gmail.com, division_code=1D, division_description=Product Division, location=Delhi, department_code=100, department_description=Finance]
+2021-11-15 11:57:13 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=2, employee_code=E00000113
+, employee_name=T K Dey, employee_email_id=Tkdey02@gmail.com, division_code=2D, division_description=IT Services, location=Hyderabad, department_code=101, department_description=R & D]
+2021-11-15 11:57:13 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=3, employee_code=E00000145
+
+, employee_name=B Ghosh, employee_email_id=Bghosh32@gmail.com, division_code=3D, division_description=Software, location=Banglore, department_code=102, department_description=Administration]
+2021-11-15 11:57:13 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=4, employee_code=E00000211
+, employee_name=S D Joshi
+, employee_email_id=sdjoshi42@gmail.com, division_code=4D, division_description=Accessories, location=Pune, department_code=103, department_description=Human Resource]
+2021-11-15 12:19:12 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6cc7b4de: startup date [Mon Nov 15 12:19:12 IST 2021]; root of context hierarchy
+2021-11-15 12:19:12 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-15 12:19:14 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2021-11-15 12:34:02 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6cc7b4de: startup date [Mon Nov 15 12:34:02 IST 2021]; root of context hierarchy
+2021-11-15 12:34:02 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-15 12:34:58 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6cc7b4de: startup date [Mon Nov 15 12:34:58 IST 2021]; root of context hierarchy
+2021-11-15 12:34:58 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-15 12:35:01 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=1, employee_code=E00000109, employee_name=A K SHARMA
+, employee_email_id=Aksharma01@gmail.com, division_code=1D, division_description=Product Division, location=Delhi, department_code=100, department_description=Finance]
+2021-11-15 14:36:34 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6cc7b4de: startup date [Mon Nov 15 14:36:34 IST 2021]; root of context hierarchy
+2021-11-15 14:36:34 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-15 14:36:36 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=1, employee_code=E00000109, employee_name=A K SHARMA
+, employee_email_id=Aksharma01@gmail.com, division_code=1D, division_description=Product Division, location=Delhi, department_code=100, department_description=Finance]
+2021-11-15 14:36:56 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6cc7b4de: startup date [Mon Nov 15 14:36:56 IST 2021]; root of context hierarchy
+2021-11-15 14:36:56 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-15 14:36:58 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=1, employee_code=E00000109, employee_name=A K SHARMA
+, employee_email_id=Aksharma01@gmail.com, division_code=1D, division_description=Product Division, location=Delhi, department_code=100, department_description=Finance]
+2021-11-15 14:36:58 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=2, employee_code=E00000113
+, employee_name=T K Dey, employee_email_id=Tkdey02@gmail.com, division_code=2D, division_description=IT Services, location=Hyderabad, department_code=101, department_description=R & D]
+2021-11-15 14:36:58 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=3, employee_code=E00000145
+
+, employee_name=B Ghosh, employee_email_id=Bghosh32@gmail.com, division_code=3D, division_description=Software, location=Banglore, department_code=102, department_description=Administration]
+2021-11-15 14:36:58 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=4, employee_code=E00000211
+, employee_name=S D Joshi
+, employee_email_id=sdjoshi42@gmail.com, division_code=4D, division_description=Accessories, location=Pune, department_code=103, department_description=Human Resource]
