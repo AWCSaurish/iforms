@@ -36,8 +36,10 @@ public class POServicesImpl implements IPOServices{
 		Root object=null;
 		GeneralServices services=ctx.getBean(GeneralServices.class);
 		JSONObject outputjson = services.poPullRequest(filter, PropertiesReader.getProp().getProperty("POUrl"));
+		logger.info("Object S :: "+outputjson);
 		try {
 			object=objectMapper.readValue(outputjson.toString(),Root.class);
+			
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

@@ -14,6 +14,7 @@ import org.springframework.stereotype.Component;
 
 import com.awcsoftware.dao.IGmmcoMdmDao;
 import com.awcsoftware.dto.mdm.MdmEmployeeMaster;
+import com.awcsoftware.services.RestClient;
 import com.newgen.iforms.EControl;
 import com.newgen.iforms.FormDef;
 import com.newgen.iforms.custom.IFormReference;
@@ -25,7 +26,8 @@ import com.newgen.mvcbeans.model.WorkdeskModel;
 public class Indexer implements IFormServerEventHandler {
 	@Autowired
 	private IGmmcoMdmDao dao;
-
+	@Autowired
+	private RestClient client;
 	final static Logger logger = Logger.getLogger(Indexer.class);
 
 	public Indexer() {
@@ -38,7 +40,10 @@ public class Indexer implements IFormServerEventHandler {
 		List<MdmEmployeeMaster> list = dao.getListOfEmployees();
 		for (MdmEmployeeMaster master : list) {
 			ifr.addItemInCombo("employeecode", master.getEmployee_code(), master.getEmployee_code());
+			logger.info("Master :: "+master);
 		}
+		logger.info("Test After");
+		logger.info("Test For Rest Response :: "+client.getPODetails("PoNumber eq '2000000000'"));
 	}
 
 	@Override

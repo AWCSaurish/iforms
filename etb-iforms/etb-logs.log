@@ -121,3 +121,7 @@
 2021-11-15 14:36:58 INFO  MdmEmployeeMasterMapper:33 - MdmEmployeeMaster [sr_no=4, employee_code=E00000211
 , employee_name=S D Joshi
 , employee_email_id=sdjoshi42@gmail.com, division_code=4D, division_description=Accessories, location=Pune, department_code=103, department_description=Human Resource]
+2021-11-16 14:22:03 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@517cd4b: startup date [Tue Nov 16 14:22:03 IST 2021]; root of context hierarchy
+2021-11-16 14:22:03 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2021-11-16 17:52:25 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6cc7b4de: startup date [Tue Nov 16 17:52:25 IST 2021]; root of context hierarchy
+2021-11-16 17:52:25 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]

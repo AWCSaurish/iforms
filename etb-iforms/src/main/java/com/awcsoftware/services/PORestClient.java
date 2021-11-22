@@ -4,9 +4,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Scope;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
 
 import com.awcsoftware.dto.po.PORequest;
@@ -17,15 +15,15 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 import com.sun.jersey.api.client.ClientResponse;
 @Component
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
-public class PORestClient {
+public class PORestClient implements RestClient{
 	@Autowired
 	private JSONParser parser;
 	@Autowired
 	private PORequest req;
 	@Autowired
 	private ObjectMapper objectMapper;
-	
-	public void getPODetails(String filter) {
+	@Override
+	public POResponse getPODetails(String filter) {
 		POResponse object=null;
 		req.setFilter(filter);
 		String test=json.createJson(req);
@@ -40,7 +38,8 @@ public class PORestClient {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} 
+		}
+		return object;
 	}
 	public GeneralServices json=(req)->{
 		ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
@@ -54,8 +53,8 @@ public class PORestClient {
 		}
 		
 	};
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		ApplicationContext ctx=new ClassPathXmlApplicationContext("spring.xml");
 		ctx.getBean(PORestClient.class).getPODetails("PoNumber eq '2000000000'");
-	}
+	}*/
 }

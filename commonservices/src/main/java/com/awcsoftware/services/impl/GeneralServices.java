@@ -36,8 +36,9 @@ public class GeneralServices {
 		json = (JSONObject) parser.parse(resp.getEntity(String.class)); 
 		}
 		catch(ParseException e) {
-			logger.info(e.getLocalizedMessage());
+			logger.info(e.getStackTrace());
 		}
+		logger.info("JSON :: "+json);
 		return json;
 	}
 
@@ -73,8 +74,10 @@ public class GeneralServices {
 		return Client.create().resource("");
 	}
 	public String encodeAuthString() {
-		return DatatypeConverter.printBase64Binary((PropertiesReader.getProp().getProperty("APIUser") + ":"
+		String str=DatatypeConverter.printBase64Binary((PropertiesReader.getProp().getProperty("APIUser") + ":"
 				+ PropertiesReader.getProp().getProperty("APIPass")).getBytes());
+		logger.info("Auth String :: "+str);
+		return str;
 	}
 	
 }
