@@ -21,6 +21,10 @@
 	<context:component-scan
 		base-package="com.awcsoftware.dto.mdm" />
 	<context:component-scan
+		base-package="com.awcsoftware.dto.vendor" />
+	<context:component-scan
+		base-package="com.awcsoftware.dto.vendor.mapper" />	
+	<context:component-scan
 		base-package="com.awcsoftware.dao.impl" />
 	<bean
 		class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">

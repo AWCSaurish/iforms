@@ -14,6 +14,7 @@ import org.springframework.stereotype.Component;
 
 import com.awcsoftware.dao.IGmmcoMdmDao;
 import com.awcsoftware.dto.mdm.MdmEmployeeMaster;
+import com.awcsoftware.dto.vendor.Invoice;
 import com.awcsoftware.services.RestClient;
 import com.newgen.iforms.EControl;
 import com.newgen.iforms.FormDef;
@@ -43,7 +44,7 @@ public class Indexer implements IFormServerEventHandler {
 			logger.info("Master :: "+master);
 		}
 		logger.info("Test After");
-		logger.info("Test For Rest Response :: "+client.getPODetails("PoNumber eq '2000000000'"));
+		//logger.info("Test For Rest Response :: "+client.getPODetails("PoNumber eq '2000000000'"));
 	}
 
 	@Override
@@ -60,13 +61,16 @@ public class Indexer implements IFormServerEventHandler {
 
 	@Override
 	public String executeServerEvent(IFormReference ifr, String string, String string1, String string2) {
-		logger.info("string :: " + string);
-		logger.info("string1 :: " + string1);
-		logger.info("string2 :: " + string2);
-
 		switch (string1) {
 
-		case "OnClick":
+		case "onClick":
+			switch(string) {
+			case "Btn_Simulate":
+				Integer inv=dao.getInvoice((String)ifr.getValue("invoicenumber"), (String)ifr.getValue("invoicetotalamount"), (String)ifr.getValue("vendorcode"));
+				logger.info("Invoice :: "+inv);
+				if(inv==1)
+					return "Duplicate Invoice Found";
+			}
 			break;
 		case "onChange":
 

@@ -1,133 +1,139 @@
 package com.awcsoftware.dto.po;
 
+import java.util.Date;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class LineResult{
-    @JsonProperty("AssetSubnum") 
-    private String assetSubnum;
+	@JsonProperty("AssetSubnum") 
+    public String assetSubnum;
     @JsonProperty("FuncArea") 
-    private String funcArea;
+    public String funcArea;
     @JsonProperty("IgstPer") 
-    private String igstPer;
+    public String igstPer;
     @JsonProperty("DelIndicator") 
-    private boolean delIndicator;
+    public boolean delIndicator;
     @JsonProperty("AssetNumber") 
-    private String assetNumber;
+    public String assetNumber;
     @JsonProperty("Name") 
-    private String name;
+    public String name;
     @JsonProperty("PoItem") 
-    private String poItem;
-    @JsonProperty("PackLineno") 
-    private String packLineno;
+    public String poItem;
     @JsonProperty("PurchGroup") 
-    private String purchGroup;
+    public String purchGroup;
+    @JsonProperty("PackLineno") 
+    public String packLineno;
+    @JsonProperty("GrBasedIv") 
+    public String grBasedIv;
     @JsonProperty("ReleaseState") 
-    private String releaseState;
+    public String releaseState;
     @JsonProperty("Currency") 
-    private String currency;
+    public String currency;
     @JsonProperty("TextInfo") 
-    private String textInfo;
+    public String textInfo;
     @JsonProperty("ServiceText") 
-    private String serviceText;
+    public String serviceText;
     @JsonProperty("ManufactNumber") 
-    private String manufactNumber;
+    public String manufactNumber;
     @JsonProperty("Order") 
-    private String order;
+    public String order;
     @JsonProperty("PoNumber") 
-    private String poNumber;
+    public String poNumber;
     @JsonProperty("CondDocnumber") 
-    private String condDocnumber;
+    public String condDocnumber;
     @JsonProperty("PrNumber") 
-    private String prNumber;
-    @JsonProperty("ServiceTaxcd") 
-    private String serviceTaxcd;
+    public String prNumber;
     @JsonProperty("CustTaxStcd3") 
-    private String custTaxStcd3;
+    public String custTaxStcd3;
+    @JsonProperty("ServiceTaxcd") 
+    public String serviceTaxcd;
     @JsonProperty("PoDate") 
-    private Object poDate;
+    public Date poDate;
     @JsonProperty("PurchOrg") 
-    private String purchOrg;
+    public String purchOrg;
     @JsonProperty("NetPrice") 
-    private String netPrice;
+    public String netPrice;
     @JsonProperty("SerialNumber") 
-    private String serialNumber;
+    public String serialNumber;
     @JsonProperty("MaterialGroup") 
-    private String materialGroup;
+    public String materialGroup;
     @JsonProperty("PrItem") 
-    private String prItem;
+    public String prItem;
     @JsonProperty("NetValue") 
-    private String netValue;
+    public String netValue;
     @JsonProperty("PoType") 
-    private String poType;
+    public String poType;
     @JsonProperty("Incoterm1") 
-    private String incoterm1;
+    public String incoterm1;
     @JsonProperty("StorageLoc") 
-    private String storageLoc;
+    public String storageLoc;
     @JsonProperty("Incoterm2") 
-    private String incoterm2;
+    public String incoterm2;
     @JsonProperty("ExchangeRate") 
-    private String exchangeRate;
+    public String exchangeRate;
     @JsonProperty("Message") 
-    private String message;
+    public String message;
     @JsonProperty("NetworkNumber") 
-    private String networkNumber;
+    public String networkNumber;
     @JsonProperty("Plant") 
-    private String plant;
+    public String plant;
     @JsonProperty("PackNo") 
-    private String packNo;
+    public String packNo;
     @JsonProperty("CostCenter") 
-    private String costCenter;
+    public String costCenter;
     @JsonProperty("TaxCode") 
-    private String taxCode;
+    public String taxCode;
     @JsonProperty("Batch") 
-    private String batch;
+    public String batch;
     @JsonProperty("CostElement") 
-    private String costElement;
+    public String costElement;
     @JsonProperty("TaxNumber") 
-    private String taxNumber;
-    private Metadata __metadata;
-    @JsonProperty("SericeTaxtarrif") 
-    private String sericeTaxtarrif;
+    public String taxNumber;
+    public Metadata __metadata;
     @JsonProperty("ValuationType") 
-    private String valuationType;
+    public String valuationType;
+    @JsonProperty("SericeTaxtarrif") 
+    public String sericeTaxtarrif;
     @JsonProperty("SalesDoc") 
-    private String salesDoc;
+    public String salesDoc;
     @JsonProperty("ServiceQty") 
-    private String serviceQty;
+    public String serviceQty;
     @JsonProperty("ProfitCenter") 
-    private String profitCenter;
+    public String profitCenter;
     @JsonProperty("Wbs") 
-    private String wbs;
+    public String wbs;
     @JsonProperty("Quantity") 
-    private String quantity;
+    public String quantity;
     @JsonProperty("Material") 
-    private String material;
+    public String material;
     @JsonProperty("Vendor") 
-    private String vendor;
+    public String vendor;
     @JsonProperty("SalesItem") 
-    private String salesItem;
+    public String salesItem;
     @JsonProperty("ControlCode") 
-    private String controlCode;
+    public String controlCode;
     @JsonProperty("Uom") 
-    private String uom;
+    public String uom;
     @JsonProperty("CgstVal") 
-    private String cgstVal;
+    public String cgstVal;
     @JsonProperty("AccAssignCat") 
-    private String accAssignCat;
+    public String accAssignCat;
     @JsonProperty("IgstVal") 
-    private String igstVal;
+    public String igstVal;
     @JsonProperty("CgstPer") 
-    private String cgstPer;
+    public String cgstPer;
     @JsonProperty("ItemCat") 
-    private String itemCat;
+    public String itemCat;
     @JsonProperty("SgstPer") 
-    private String sgstPer;
+    public String sgstPer;
     @JsonProperty("ServiceMeins") 
-    private String serviceMeins;
+    public String serviceMeins;
     @JsonProperty("CompanyCode") 
-    private String companyCode;
+    public String companyCode;
     @JsonProperty("SgstVal") 
-    private String sgstVal;
+    public String sgstVal;
+    public LineResult() {
+	}
 	public String getAssetSubnum() {
 		return assetSubnum;
 	}
@@ -170,17 +176,23 @@ public class LineResult{
 	public void setPoItem(String poItem) {
 		this.poItem = poItem;
 	}
+	public String getPurchGroup() {
+		return purchGroup;
+	}
+	public void setPurchGroup(String purchGroup) {
+		this.purchGroup = purchGroup;
+	}
 	public String getPackLineno() {
 		return packLineno;
 	}
 	public void setPackLineno(String packLineno) {
 		this.packLineno = packLineno;
 	}
-	public String getPurchGroup() {
-		return purchGroup;
+	public String getGrBasedIv() {
+		return grBasedIv;
 	}
-	public void setPurchGroup(String purchGroup) {
-		this.purchGroup = purchGroup;
+	public void setGrBasedIv(String grBasedIv) {
+		this.grBasedIv = grBasedIv;
 	}
 	public String getReleaseState() {
 		return releaseState;
@@ -236,22 +248,22 @@ public class LineResult{
 	public void setPrNumber(String prNumber) {
 		this.prNumber = prNumber;
 	}
-	public String getServiceTaxcd() {
-		return serviceTaxcd;
-	}
-	public void setServiceTaxcd(String serviceTaxcd) {
-		this.serviceTaxcd = serviceTaxcd;
-	}
 	public String getCustTaxStcd3() {
 		return custTaxStcd3;
 	}
 	public void setCustTaxStcd3(String custTaxStcd3) {
 		this.custTaxStcd3 = custTaxStcd3;
 	}
-	public Object getPoDate() {
+	public String getServiceTaxcd() {
+		return serviceTaxcd;
+	}
+	public void setServiceTaxcd(String serviceTaxcd) {
+		this.serviceTaxcd = serviceTaxcd;
+	}
+	public Date getPoDate() {
 		return poDate;
 	}
-	public void setPoDate(Object poDate) {
+	public void setPoDate(Date poDate) {
 		this.poDate = poDate;
 	}
 	public String getPurchOrg() {
@@ -380,17 +392,17 @@ public class LineResult{
 	public void set__metadata(Metadata __metadata) {
 		this.__metadata = __metadata;
 	}
-	public String getSericeTaxtarrif() {
-		return sericeTaxtarrif;
-	}
-	public void setSericeTaxtarrif(String sericeTaxtarrif) {
-		this.sericeTaxtarrif = sericeTaxtarrif;
-	}
 	public String getValuationType() {
 		return valuationType;
 	}
 	public void setValuationType(String valuationType) {
 		this.valuationType = valuationType;
+	}
+	public String getSericeTaxtarrif() {
+		return sericeTaxtarrif;
+	}
+	public void setSericeTaxtarrif(String sericeTaxtarrif) {
+		this.sericeTaxtarrif = sericeTaxtarrif;
 	}
 	public String getSalesDoc() {
 		return salesDoc;
@@ -527,6 +539,7 @@ public class LineResult{
 		result = prime * result + (delIndicator ? 1231 : 1237);
 		result = prime * result + ((exchangeRate == null) ? 0 : exchangeRate.hashCode());
 		result = prime * result + ((funcArea == null) ? 0 : funcArea.hashCode());
+		result = prime * result + ((grBasedIv == null) ? 0 : grBasedIv.hashCode());
 		result = prime * result + ((igstPer == null) ? 0 : igstPer.hashCode());
 		result = prime * result + ((igstVal == null) ? 0 : igstVal.hashCode());
 		result = prime * result + ((incoterm1 == null) ? 0 : incoterm1.hashCode());
@@ -665,6 +678,11 @@ public class LineResult{
 			if (other.funcArea != null)
 				return false;
 		} else if (!funcArea.equals(other.funcArea))
+			return false;
+		if (grBasedIv == null) {
+			if (other.grBasedIv != null)
+				return false;
+		} else if (!grBasedIv.equals(other.grBasedIv))
 			return false;
 		if (igstPer == null) {
 			if (other.igstPer != null)
@@ -900,25 +918,26 @@ public class LineResult{
 	}
 	@Override
 	public String toString() {
-		return "Result [assetSubnum=" + assetSubnum + ", funcArea=" + funcArea + ", igstPer=" + igstPer
+		return "LineResult [assetSubnum=" + assetSubnum + ", funcArea=" + funcArea + ", igstPer=" + igstPer
 				+ ", delIndicator=" + delIndicator + ", assetNumber=" + assetNumber + ", name=" + name + ", poItem="
-				+ poItem + ", packLineno=" + packLineno + ", purchGroup=" + purchGroup + ", releaseState="
-				+ releaseState + ", currency=" + currency + ", textInfo=" + textInfo + ", serviceText=" + serviceText
-				+ ", manufactNumber=" + manufactNumber + ", order=" + order + ", poNumber=" + poNumber
-				+ ", condDocnumber=" + condDocnumber + ", prNumber=" + prNumber + ", serviceTaxcd=" + serviceTaxcd
-				+ ", custTaxStcd3=" + custTaxStcd3 + ", poDate=" + poDate + ", purchOrg=" + purchOrg + ", netPrice="
-				+ netPrice + ", serialNumber=" + serialNumber + ", materialGroup=" + materialGroup + ", prItem="
-				+ prItem + ", netValue=" + netValue + ", poType=" + poType + ", incoterm1=" + incoterm1
-				+ ", storageLoc=" + storageLoc + ", incoterm2=" + incoterm2 + ", exchangeRate=" + exchangeRate
-				+ ", message=" + message + ", networkNumber=" + networkNumber + ", plant=" + plant + ", packNo="
-				+ packNo + ", costCenter=" + costCenter + ", taxCode=" + taxCode + ", batch=" + batch + ", costElement="
-				+ costElement + ", taxNumber=" + taxNumber + ", __metadata=" + __metadata + ", sericeTaxtarrif="
-				+ sericeTaxtarrif + ", valuationType=" + valuationType + ", salesDoc=" + salesDoc + ", serviceQty="
-				+ serviceQty + ", profitCenter=" + profitCenter + ", wbs=" + wbs + ", quantity=" + quantity
-				+ ", material=" + material + ", vendor=" + vendor + ", salesItem=" + salesItem + ", controlCode="
-				+ controlCode + ", uom=" + uom + ", cgstVal=" + cgstVal + ", accAssignCat=" + accAssignCat
-				+ ", igstVal=" + igstVal + ", cgstPer=" + cgstPer + ", itemCat=" + itemCat + ", sgstPer=" + sgstPer
-				+ ", serviceMeins=" + serviceMeins + ", companyCode=" + companyCode + ", sgstVal=" + sgstVal + "]";
+				+ poItem + ", purchGroup=" + purchGroup + ", packLineno=" + packLineno + ", grBasedIv=" + grBasedIv
+				+ ", releaseState=" + releaseState + ", currency=" + currency + ", textInfo=" + textInfo
+				+ ", serviceText=" + serviceText + ", manufactNumber=" + manufactNumber + ", order=" + order
+				+ ", poNumber=" + poNumber + ", condDocnumber=" + condDocnumber + ", prNumber=" + prNumber
+				+ ", custTaxStcd3=" + custTaxStcd3 + ", serviceTaxcd=" + serviceTaxcd + ", poDate=" + poDate
+				+ ", purchOrg=" + purchOrg + ", netPrice=" + netPrice + ", serialNumber=" + serialNumber
+				+ ", materialGroup=" + materialGroup + ", prItem=" + prItem + ", netValue=" + netValue + ", poType="
+				+ poType + ", incoterm1=" + incoterm1 + ", storageLoc=" + storageLoc + ", incoterm2=" + incoterm2
+				+ ", exchangeRate=" + exchangeRate + ", message=" + message + ", networkNumber=" + networkNumber
+				+ ", plant=" + plant + ", packNo=" + packNo + ", costCenter=" + costCenter + ", taxCode=" + taxCode
+				+ ", batch=" + batch + ", costElement=" + costElement + ", taxNumber=" + taxNumber + ", __metadata="
+				+ __metadata + ", valuationType=" + valuationType + ", sericeTaxtarrif=" + sericeTaxtarrif
+				+ ", salesDoc=" + salesDoc + ", serviceQty=" + serviceQty + ", profitCenter=" + profitCenter + ", wbs="
+				+ wbs + ", quantity=" + quantity + ", material=" + material + ", vendor=" + vendor + ", salesItem="
+				+ salesItem + ", controlCode=" + controlCode + ", uom=" + uom + ", cgstVal=" + cgstVal
+				+ ", accAssignCat=" + accAssignCat + ", igstVal=" + igstVal + ", cgstPer=" + cgstPer + ", itemCat="
+				+ itemCat + ", sgstPer=" + sgstPer + ", serviceMeins=" + serviceMeins + ", companyCode=" + companyCode
+				+ ", sgstVal=" + sgstVal + "]";
 	}
     
 }

@@ -1,10 +1,13 @@
 package com.awcsoftware.services;
 
+import org.apache.log4j.Logger;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Scope;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
 
 import com.awcsoftware.dto.po.PORequest;
@@ -16,6 +19,7 @@ import com.sun.jersey.api.client.ClientResponse;
 @Component
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class PORestClient implements RestClient{
+	final static Logger logger = Logger.getLogger(PORestClient.class);
 	@Autowired
 	private JSONParser parser;
 	@Autowired
@@ -25,17 +29,22 @@ public class PORestClient implements RestClient{
 	@Override
 	public POResponse getPODetails(String filter) {
 		POResponse object=null;
+		try {
+		logger.info("From PO Rest Client !");
 		req.setFilter(filter);
 		String test=json.createJson(req);
+		logger.info("Test :: "+test);
 		JSONObject json = null;
 		ClientResponse resp = GeneralServices.getWebResource()
 				.path(PropertiesReader.getProp().getProperty("PoDetailsUrl")).accept("application/json").type("application/json")
 				.post(ClientResponse.class,test);
-		try {
+		logger.info("Hello !"+resp);
 			json = (JSONObject) parser.parse(resp.getEntity(String.class)); 
+			logger.info("JSON After Parse :: "+json);
 			object=objectMapper.readValue(json.toString(),POResponse.class);
-			System.out.println("JSON Array" + object);
+			logger.info("Object :: "+object);
 		} catch (Exception e) {
+			logger.info("Catch Block :: "+e);
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -46,15 +55,17 @@ public class PORestClient implements RestClient{
 		String json;
 		try {
 			json = ow.writeValueAsString(req);
+			logger.info("JSON ::"+json);
 			return json;
 		} catch (JsonProcessingException e) {
 			e.printStackTrace();
+			//logger.info("From Catch :: JSON :: "+e);
 			return null;
 		}
 		
 	};
-	/*public static void main(String[] args) {
+	public static void main(String[] args) {
 		ApplicationContext ctx=new ClassPathXmlApplicationContext("spring.xml");
 		ctx.getBean(PORestClient.class).getPODetails("PoNumber eq '2000000000'");
-	}*/
+	}
 }
