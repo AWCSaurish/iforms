@@ -30,21 +30,20 @@ public class PORestClient implements RestClient{
 	public POResponse getPODetails(String filter) {
 		POResponse object=null;
 		try {
-		logger.info("From PO Rest Client !");
+		logger.info("From PO Rest Client :: "+filter);
 		req.setFilter(filter);
 		String test=json.createJson(req);
 		logger.info("Test :: "+test);
 		JSONObject json = null;
-		ClientResponse resp = GeneralServices.getWebResource()
-				.path(PropertiesReader.getProp().getProperty("PoDetailsUrl")).accept("application/json").type("application/json")
-				.post(ClientResponse.class,test);
+		ClientResponse resp = GeneralServices.getWebResource().path(PropertiesReader.getProp().getProperty("PoDetailsUrl")).accept("application/json").type("application/json").post(ClientResponse.class,test);
 		logger.info("Hello !"+resp);
 			json = (JSONObject) parser.parse(resp.getEntity(String.class)); 
 			logger.info("JSON After Parse :: "+json);
 			object=objectMapper.readValue(json.toString(),POResponse.class);
 			logger.info("Object :: "+object);
 		} catch (Exception e) {
-			logger.info("Catch Block :: "+e);
+			System.out.println("Catch Block :: "+e);
+			System.err.println("Catch Block :: "+e);
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}

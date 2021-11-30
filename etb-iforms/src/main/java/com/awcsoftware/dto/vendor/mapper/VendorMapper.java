@@ -15,9 +15,10 @@ import com.awcsoftware.dto.vendor.Vendor;
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class VendorMapper implements RowMapper<Vendor>{
 	@Autowired
-	private Vendor vendor;
+	private ApplicationContext ctx;
 	@Override
 	public Vendor mapRow(ResultSet rs, int rowNum) throws SQLException {
+		Vendor vendor=ctx.getBean(Vendor.class);
 		vendor.setPan_number(rs.getString("pan_number"));
 		vendor.setVendor_code(rs.getString("vendor_code"));
 		vendor.setVendor_GSTN(rs.getString("vendor_GSTN"));

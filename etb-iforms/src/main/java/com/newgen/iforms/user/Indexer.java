@@ -9,12 +9,15 @@ import org.apache.log4j.Logger;
 import org.json.simple.JSONArray;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import com.awcsoftware.dao.IGmmcoMdmDao;
 import com.awcsoftware.dto.mdm.MdmEmployeeMaster;
-import com.awcsoftware.dto.vendor.Invoice;
+import com.awcsoftware.dto.po.POResponse;
+import com.awcsoftware.dto.vendor.Vendor;
+import com.awcsoftware.services.PORestClient;
 import com.awcsoftware.services.RestClient;
 import com.newgen.iforms.EControl;
 import com.newgen.iforms.FormDef;
@@ -30,6 +33,8 @@ public class Indexer implements IFormServerEventHandler {
 	@Autowired
 	private RestClient client;
 	final static Logger logger = Logger.getLogger(Indexer.class);
+	@Autowired
+	private ApplicationContext ctx;
 
 	public Indexer() {
 		logger.info("From Indexer Cons.");
@@ -41,7 +46,7 @@ public class Indexer implements IFormServerEventHandler {
 		List<MdmEmployeeMaster> list = dao.getListOfEmployees();
 		for (MdmEmployeeMaster master : list) {
 			ifr.addItemInCombo("employeecode", master.getEmployee_code(), master.getEmployee_code());
-			logger.info("Master :: "+master);
+			//logger.info("Master :: "+master);
 		}
 		logger.info("Test After");
 		//logger.info("Test For Rest Response :: "+client.getPODetails("PoNumber eq '2000000000'"));
@@ -68,9 +73,25 @@ public class Indexer implements IFormServerEventHandler {
 			case "Btn_Simulate":
 				Integer inv=dao.getInvoice((String)ifr.getValue("invoicenumber"), (String)ifr.getValue("invoicetotalamount"), (String)ifr.getValue("vendorcode"));
 				logger.info("Invoice :: "+inv);
-				if(inv==1)
-					return "Duplicate Invoice Found";
+				//Method 1 Start
+				ifr.setValue("textbox32", ""+inv);
+				//Method 2 start
+					/*if(inv!=0)
+					{
+						ifr.setValue("textbox32", "dup");
+					}*/
+				//return "Duplicate Invoice Found";
+				break;
+			case "fetchPOData":
+				logger.info("Test For Rest Response :: ");
+				//POResponse response=client.getPODetails("PoNumber eq '"+ifr.getValue("ponumber")+"'");
+				//logger.info("Response :: "+response);
+				ctx.getBean(PORestClient.class).getPODetails("PoNumber eq '2000000000'");
+				break;
+				
+				default : break;
 			}
+			
 			break;
 		case "onChange":
 
@@ -84,7 +105,11 @@ public class Indexer implements IFormServerEventHandler {
 				ifr.setValue("employeeName", master.getEmployee_name());
 				ifr.setValue("division", master.getDivision_code());
 				break;
-
+			case "fetchVendorCode":
+				Vendor vendor = dao.getVendor((String)ifr.getValue("gstinvendor"));
+				ifr.setValue("vendorcode", vendor.getVendor_code());
+				
+				break;
 			default:
 				break;
 			}

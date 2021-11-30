@@ -1,6 +1,5 @@
 package com.awcsoftware.dto.po;
 
-import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -48,7 +47,7 @@ public class LineResult{
     @JsonProperty("ServiceTaxcd") 
     public String serviceTaxcd;
     @JsonProperty("PoDate") 
-    public Date poDate;
+    public String poDate;
     @JsonProperty("PurchOrg") 
     public String purchOrg;
     @JsonProperty("NetPrice") 
@@ -260,10 +259,10 @@ public class LineResult{
 	public void setServiceTaxcd(String serviceTaxcd) {
 		this.serviceTaxcd = serviceTaxcd;
 	}
-	public Date getPoDate() {
+	public String getPoDate() {
 		return poDate;
 	}
-	public void setPoDate(Date poDate) {
+	public void setPoDate(String poDate) {
 		this.poDate = poDate;
 	}
 	public String getPurchOrg() {
@@ -939,5 +938,5 @@ public class LineResult{
 				+ itemCat + ", sgstPer=" + sgstPer + ", serviceMeins=" + serviceMeins + ", companyCode=" + companyCode
 				+ ", sgstVal=" + sgstVal + "]";
 	}
-    
+	 
 }

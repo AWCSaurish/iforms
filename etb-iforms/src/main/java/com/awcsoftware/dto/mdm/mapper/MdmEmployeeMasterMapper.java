@@ -30,7 +30,7 @@ public class MdmEmployeeMasterMapper implements RowMapper<MdmEmployeeMaster>{
 		master.setEmployee_name(rs.getString("employee_name"));
 		master.setLocation(rs.getString("location"));
 		master.setSr_no(rs.getString("sr_no"));
-		logger.info(master);
+		//logger.info(master);
 		return master;
 	}
 

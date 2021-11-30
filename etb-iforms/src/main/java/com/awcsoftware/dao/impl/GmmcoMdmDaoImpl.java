@@ -15,9 +15,7 @@ import org.springframework.stereotype.Component;
 import com.awcsoftware.dao.IGmmcoMdmDao;
 import com.awcsoftware.dto.mdm.MdmEmployeeMaster;
 import com.awcsoftware.dto.mdm.mapper.MdmEmployeeMasterMapper;
-import com.awcsoftware.dto.vendor.Invoice;
 import com.awcsoftware.dto.vendor.Vendor;
-import com.awcsoftware.dto.vendor.mapper.InvoiceMapper;
 import com.awcsoftware.dto.vendor.mapper.VendorMapper;
 import com.awcsoftware.services.PropertiesReader;
 @Component
@@ -26,25 +24,22 @@ public class GmmcoMdmDaoImpl implements IGmmcoMdmDao {
 	final static Logger logger = Logger.getLogger(GmmcoMdmDaoImpl.class);
 	@Autowired
 	private JdbcTemplate template;
-	@Autowired 
-	private MdmEmployeeMasterMapper mapper;
 	@Autowired
-	private VendorMapper vMapper;
-	@Autowired
-	private InvoiceMapper iMapper;
+	private ApplicationContext ctx;
+	
 	@Override
 	public List<MdmEmployeeMaster> getListOfEmployees() {
-		return template.query(PropertiesReader.getProp().getProperty("mdm_employee_master"), mapper);
+		return template.query(PropertiesReader.getProp().getProperty("mdm_employee_master"), ctx.getBean(MdmEmployeeMasterMapper.class));
 	}
 	@Override
 	public MdmEmployeeMaster getEmployee(String empCode) {
 		Object[] obj = new Object[] {empCode};
-		return template.queryForObject(PropertiesReader.getProp().getProperty("mdm_employee"),obj, mapper);
+		return template.queryForObject(PropertiesReader.getProp().getProperty("mdm_employee"),obj, ctx.getBean(MdmEmployeeMasterMapper.class));
 	}
 	@Override
 	public Vendor getVendor(String gstin) {
 		Object[] obj = new Object[] {gstin};
-		return template.queryForObject(PropertiesReader.getProp().getProperty("mdm_vendor"),obj, vMapper);
+		return template.queryForObject(PropertiesReader.getProp().getProperty("mdm_vendor"),obj, ctx.getBean(VendorMapper.class));
 	}
 	@Override
 	public Integer getInvoice(String invoicenumber, String invoicetotalamount, String vendorcode) {
@@ -62,9 +57,24 @@ public class GmmcoMdmDaoImpl implements IGmmcoMdmDao {
 		}
 		
 	}
+	@Override
+	public String getBusinessPlace(String placeCode) {
+		String i=null;
+		logger.info("ETB Business Place Code :: "+placeCode);
+		
+		Object[] obj = new Object[] {placeCode};
+		try {
+			i = template.queryForObject(PropertiesReader.getProp().getProperty("getBusinessPlace"),obj, String.class);
+			return i;
+		}
+		catch(EmptyResultDataAccessException e) {
+			return i;
+		}
+		
+	}
 	public static void main(String[] args) {
 		ApplicationContext ctx=new ClassPathXmlApplicationContext("spring.xml");
-		Integer i=ctx.getBean(GmmcoMdmDaoImpl.class).getInvoice("2131231", "123213", "234234");
+		String i=ctx.getBean(GmmcoMdmDaoImpl.class).getBusinessPlace("APX");
 		System.out.println("INV :: "+i);
 	}
 }
