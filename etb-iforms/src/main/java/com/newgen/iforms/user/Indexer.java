@@ -16,9 +16,7 @@ import org.springframework.stereotype.Component;
 
 import com.awcsoftware.dao.IGmmcoMdmDao;
 import com.awcsoftware.dto.mdm.MdmEmployeeMaster;
-import com.awcsoftware.dto.po.POResponse;
 import com.awcsoftware.dto.vendor.Vendor;
-import com.awcsoftware.services.RestClient;
 import com.newgen.dto.POBean;
 import com.newgen.dto.POHistoryBean;
 import com.newgen.dto.PoDetailsBean;
@@ -34,8 +32,7 @@ import com.newgen.mvcbeans.model.WorkdeskModel;
 public class Indexer implements IFormServerEventHandler {
 	@Autowired
 	private IGmmcoMdmDao dao;
-	@Autowired
-	private RestClient client;
+	
 	@Autowired
 	private PORelated related;
 	final static Logger logger = Logger.getLogger(Indexer.class);
@@ -101,23 +98,66 @@ public class Indexer implements IFormServerEventHandler {
 				//return "Duplicate Invoice Found";
 				break;
 			case "fetchPOData":
-				logger.info("Test For Rest Response :: ");
+				ifr.clearTable("table3");
+				ifr.clearTable("table4");
+				
 				ArrayList<POBean> poBean = related.getPODetails("PoNumber eq '"+ifr.getValue("ponumber")+"'");
-				//ArrayList<PoDetailsBean> details = related.getPOLines("PoNumber eq '"+ifr.getValue("ponumber")+"'");
-				//ArrayList<POHistoryBean> history=related.getPOHistory("PoNumber eq '"+ifr.getValue("ponumber")+"'");
+				ArrayList<PoDetailsBean> details = related.getPOLines("PoNumber eq '"+ifr.getValue("ponumber")+"'");
+				ArrayList<POHistoryBean> history=related.getPOHistory("PoNumber eq '"+ifr.getValue("ponumber")+"'");
 				//POResponse response=client.getPODetails("PoNumber eq '"+ifr.getValue("ponumber")+"'");
 				ifr.setValue("textbox34", poBean.get(0).getVendor());
 				ifr.setValue("currency", poBean.get(0).getCurrency());
-				
-				//Line Item
-				/*JSONArray arr=new JSONArray();
-				{
-					JSONObject obj = new JSONObject();
-					obj.put("PO No", null);
-					arr.add(obj);
+				JSONArray jsonArr = new JSONArray();
+				for(PoDetailsBean detailsX:details) {
+					JSONObject jsonObj = new JSONObject();
+					jsonObj.put("PO No", detailsX.getPoNumber());
+					jsonObj.put("PO Category", detailsX.getPoType());
+					jsonObj.put("PO Line Item", detailsX.getPoItem());
+					jsonObj.put("GR Number", "");
+					jsonObj.put("Tax Code", detailsX.getTaxCode());
+					jsonObj.put("Line Item Text", "");
+					jsonObj.put("Taxable Amount (Line Item Amount )", "");
+					jsonObj.put("Qty", detailsX.getQuantity());
+					jsonObj.put("UOM", detailsX.getUom());
+					jsonObj.put("Other Charges", "");
+					jsonObj.put("WBS", detailsX.getWbs());
+					jsonObj.put("GL Account", "");
+					jsonObj.put("Profit Centre", "");
+					jsonObj.put("Amount", detailsX.getNetValue());
+					jsonObj.put("Plant", detailsX.getPlant());
+					jsonArr.add(jsonObj);
 				}
-				ifr.addDataToGrid("tableName", arr);
-				logger.info("Response :: "+response);*/
+				
+				JSONArray jsonArrX = new JSONArray();
+				for(POHistoryBean historyX:history) {
+					JSONObject jsonObj = new JSONObject();
+					jsonObj.put("PO Number", historyX.getPoNumber());
+					jsonObj.put("HSN/SAC", "");
+					jsonObj.put("Material Code", historyX.getMatDocItem());
+					jsonObj.put("PO Text", "");
+					jsonObj.put("Account Assignment Category", "");
+					jsonObj.put("WBSL Amount", "");
+					jsonObj.put("Order Number", "");
+					jsonObj.put("Asset", "");
+					jsonObj.put("Profit Centre", "");
+					jsonObj.put("Net PO Value", historyX.getAmountDoccurr());
+					jsonObj.put("Net Price Value", historyX.getAmountLoccurr());
+					jsonObj.put("Price Per Unit", "");
+					jsonObj.put("Refence Document Number-GRN", historyX.getRefDocNo());
+					jsonObj.put("Delivery Note - GRN Number", historyX.getMatDocNo());
+					jsonObj.put("GRN Date", historyX.getPostDate());
+					jsonObj.put("Line Item number", historyX.getPoItem());
+					jsonObj.put("GRN- Quantity", historyX.getQuantity());
+					jsonObj.put("Assignment", "");
+					jsonObj.put("Serial Number", historyX.getSerialNo());
+					jsonObj.put("Material Group", historyX.getMaterial());
+					jsonObj.put("Plant", historyX.getPlant());
+					jsonObj.put("Delivery", historyX.getDeliveryItem());
+					jsonArrX.add(jsonObj);
+				}
+				
+				ifr.addDataToGrid("table3", jsonArr);
+				ifr.addDataToGrid("table4", jsonArrX);
 				break;
 				
 				default : break;
