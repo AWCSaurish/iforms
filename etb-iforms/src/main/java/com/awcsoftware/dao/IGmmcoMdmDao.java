@@ -11,4 +11,5 @@ public interface IGmmcoMdmDao {
 	public Vendor getVendor(String gstin);
 	public Integer getInvoice(String invoicenumber,String invoicetotalamount,String vendorcode);
 	public String getBusinessPlace(String code);
+	public List<String> getCurrency();
 }

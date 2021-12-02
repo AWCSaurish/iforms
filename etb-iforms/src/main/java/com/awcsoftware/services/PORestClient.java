@@ -30,10 +30,10 @@ public class PORestClient implements RestClient{
 	public POResponse getPODetails(String filter) {
 		POResponse object=null;
 		try {
-		logger.info("From PO Rest Client :: "+filter);
+		//logger.info("From PO Rest Client :: "+filter);
 		req.setFilter(filter);
 		String test=json.createJson(req);
-		logger.info("Test :: "+test);
+		//logger.info("Test :: "+test);
 		JSONObject json = null;
 		ClientResponse resp = GeneralServices.getWebResource().path(PropertiesReader.getProp().getProperty("PoDetailsUrl")).accept("application/json").type("application/json").post(ClientResponse.class,test);
 		logger.info("Hello !"+resp);

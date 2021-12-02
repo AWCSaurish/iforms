@@ -74,7 +74,12 @@ public class GmmcoMdmDaoImpl implements IGmmcoMdmDao {
 	}
 	public static void main(String[] args) {
 		ApplicationContext ctx=new ClassPathXmlApplicationContext("spring.xml");
-		String i=ctx.getBean(GmmcoMdmDaoImpl.class).getBusinessPlace("APX");
+		List<String> i=ctx.getBean(GmmcoMdmDaoImpl.class).getCurrency();
 		System.out.println("INV :: "+i);
+	}
+	@Override
+	public List<String> getCurrency() {
+		List<String> list=template.queryForList(PropertiesReader.getProp().getProperty("mdm_currency"), String.class);
+		return list;
 	}
 }
