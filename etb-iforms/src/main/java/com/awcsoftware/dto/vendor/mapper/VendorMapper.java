@@ -19,7 +19,7 @@ public class VendorMapper implements RowMapper<Vendor>{
 	@Override
 	public Vendor mapRow(ResultSet rs, int rowNum) throws SQLException {
 		Vendor vendor=ctx.getBean(Vendor.class);
-		vendor.setPan_number(rs.getString("pan_number"));
+		vendor.setWithholding_tax(rs.getString("withholding_tax"));
 		vendor.setVendor_code(rs.getString("vendor_code"));
 		vendor.setVendor_GSTN(rs.getString("vendor_GSTN"));
 		vendor.setVendor_name(rs.getString("vendor_name"));

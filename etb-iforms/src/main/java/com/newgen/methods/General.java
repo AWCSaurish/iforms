@@ -36,6 +36,7 @@ public class General
   String pohisturl = null;
   String tokenurl = null;
   String mirourl = null;
+  String conditionurl=null;
   String currentdir = System.getProperty("user.dir");
   String finaldir = this.currentdir + File.separator + "Propertyfile" + File.separator + "RestApi.properties";
   
@@ -48,6 +49,7 @@ public class General
       Properties prop = new Properties();
       prop.load(is);
       System.out.println("Current Directory :: " + this.finaldir);
+      this.conditionurl=prop.getProperty("ConditionURL");
       this.popullurl = prop.getProperty("POUrl");
       this.polineurl = prop.getProperty("POLineUrl");
       this.pohisturl = prop.getProperty("POHistoryUrl");

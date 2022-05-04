@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+	<context:annotation-config />
+	<context:component-scan
+		base-package="com.awcsoftware.dmsapi" />
+	<context:component-scan
+		base-package="com.awcsoftware.dto" />
+	<context:component-scan
+		base-package="com.awcsoftware.services" />
+
+	<bean
+		class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+		<property name="staticMethod"
+			value="com.awcsoftware.services.PropertiesReader.setProp" />
+		<property name="arguments">
+			<util:properties location="classpath:db.properties" />
+		</property>
+	</bean>
+	<bean class="java.lang.StringBuffer" scope="prototype" id="errorMsg"/>
+	<bean class="com.newgen.dmsapi.DMSXmlResponse" scope="prototype" />
+	<bean class="com.newgen.dmsapi.DMSInputXml" scope="prototype" />
+	<bean class="ISPack.ISUtil.JPISIsIndex" scope="prototype" />
+	<bean class="ISPack.ISUtil.JPDBRecoverDocData" scope="prototype" />
+</beans>

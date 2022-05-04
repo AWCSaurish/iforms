@@ -13,12 +13,14 @@ public class ETB implements IFormListenerFactory {
 	}
 	@Override
 	public IFormServerEventHandler getClassInstance(IFormReference ifr) {
+		ApplicationContext ctx=new ClassPathXmlApplicationContext("spring.xml");
 		if("Indexer".equalsIgnoreCase(ifr.getActivityName())) {
-			ApplicationContext ctx=new ClassPathXmlApplicationContext("spring.xml");
+			System.out.println("If Clause");
 			return ctx.getBean(Indexer.class);
 		}
 		else {
-			return null;
+			System.out.println("Else Clause !");
+			return ctx.getBean(Posting.class);
 		}
 	}
 

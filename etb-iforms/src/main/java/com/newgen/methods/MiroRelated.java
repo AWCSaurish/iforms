@@ -40,7 +40,7 @@ public class MiroRelated
       mainobj.put("DiffInv", head.getDiffInv());
       mainobj.put("Currency", head.getCurrency());
       mainobj.put("GrossAmount", head.getGrossAmount());
-      mainobj.put("CalcTaxInd", head.getCalcTaxInd());
+      mainobj.put("CalcTaxInd", true);
       mainobj.put("Pmnttrms", head.getPmnttrms());
       mainobj.put("BlineDate", head.getBlineDate());
       mainobj.put("HeaderTxt", head.getHeaderTxt());

@@ -1,0 +1,104 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.awcsoftware</groupId>
+	<artifactId>MassUpload</artifactId>
+	<version>0.0.1</version>
+	<packaging>jar</packaging>
+	<build>
+		<finalName>massUpload</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.5.1</version>
+				<inherited>true</inherited>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+		<!-- Apache Commons IO -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.4</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->
+		<dependency>
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox</artifactId>
+			<version>2.0.15</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>5.2.4.RELEASE</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		<!-- Adding External Jars Start -->
+		<dependency>
+			<groupId>com.newgen.awssdk</groupId>
+			<artifactId>awssdk</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.newgen.azure</groupId>
+			<artifactId>azure</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.newgen.azurestorage</groupId>
+			<artifactId>azurestorage</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.newgen.dmsapi</groupId>
+			<artifactId>dmsapi</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.newgen.ejbclient</groupId>
+			<artifactId>ejbclient</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.newgen.ispack</groupId>
+			<artifactId>ispack</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.newgen.jdts</groupId>
+			<artifactId>jdts</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.newgen.jtssessionbean</groupId>
+			<artifactId>jtssessionbean</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.newgen.NIPLJ</groupId>
+			<artifactId>NIPLJ</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.newgen.nsms</groupId>
+			<artifactId>nsms</artifactId>
+			<version>1.0</version>
+		</dependency>
+	</dependencies>
+</project>

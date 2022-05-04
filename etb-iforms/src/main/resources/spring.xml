@@ -54,4 +54,5 @@
 	</bean>
 	<bean class="org.json.simple.parser.JSONParser" scope="prototype"/>
 	<bean class="com.fasterxml.jackson.databind.ObjectMapper" scope="prototype"/>
+	<bean class="java.util.LinkedList" scope="prototype" id="dataArr"/>
 </beans>        

@@ -10,7 +10,7 @@ public class Vendor {
 	private String vendor_code;
 	private String vendor_name;
 	private String vendor_GSTN;
-	private String pan_number;
+	private String withholding_tax;
 	public Vendor() {
 	}
 	public String getVendor_code() {
@@ -31,20 +31,20 @@ public class Vendor {
 	public void setVendor_GSTN(String vendor_GSTN) {
 		this.vendor_GSTN = vendor_GSTN;
 	}
-	public String getPan_number() {
-		return pan_number;
+	public String getWithholding_tax() {
+		return withholding_tax;
 	}
-	public void setPan_number(String pan_number) {
-		this.pan_number = pan_number;
+	public void setWithholding_tax(String withholding_tax) {
+		this.withholding_tax = withholding_tax;
 	}
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((pan_number == null) ? 0 : pan_number.hashCode());
 		result = prime * result + ((vendor_GSTN == null) ? 0 : vendor_GSTN.hashCode());
 		result = prime * result + ((vendor_code == null) ? 0 : vendor_code.hashCode());
 		result = prime * result + ((vendor_name == null) ? 0 : vendor_name.hashCode());
+		result = prime * result + ((withholding_tax == null) ? 0 : withholding_tax.hashCode());
 		return result;
 	}
 	@Override
@@ -56,11 +56,6 @@ public class Vendor {
 		if (getClass() != obj.getClass())
 			return false;
 		Vendor other = (Vendor) obj;
-		if (pan_number == null) {
-			if (other.pan_number != null)
-				return false;
-		} else if (!pan_number.equals(other.pan_number))
-			return false;
 		if (vendor_GSTN == null) {
 			if (other.vendor_GSTN != null)
 				return false;
@@ -76,12 +71,17 @@ public class Vendor {
 				return false;
 		} else if (!vendor_name.equals(other.vendor_name))
 			return false;
+		if (withholding_tax == null) {
+			if (other.withholding_tax != null)
+				return false;
+		} else if (!withholding_tax.equals(other.withholding_tax))
+			return false;
 		return true;
 	}
 	@Override
 	public String toString() {
 		return "Vendor [vendor_code=" + vendor_code + ", vendor_name=" + vendor_name + ", vendor_GSTN=" + vendor_GSTN
-				+ ", pan_number=" + pan_number + "]";
+				+ ", withholding_tax=" + withholding_tax + "]";
 	}
-	
+			
 }

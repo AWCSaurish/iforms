@@ -1,0 +1,366 @@
+2021-12-03 12:14:19 INFO  DriverClass:16 - Session Id :: -1591118409
+2021-12-03 12:15:55 INFO  DriverClass:16 - Session Id :: 1794919218
+2021-12-03 12:15:55 INFO  DriverClass:18 - File :: Jenkins email notification document.docx
+2021-12-03 12:15:55 INFO  DriverClass:18 - File :: Jenkins email notification document.pdf
+2021-12-03 12:15:55 INFO  DriverClass:18 - File :: Orient Server Upgrade steps.xlsx
+2021-12-03 12:21:35 INFO  DriverClass:19 - Session Id :: 1974444082
+2021-12-03 12:21:35 INFO  DriverClass:21 - File :: Jenkins email notification document.docx
+2021-12-03 12:22:21 INFO  DriverClass:19 - Session Id :: 1398462180
+2021-12-03 12:22:21 INFO  DriverClass:21 - File :: Jenkins email notification document.docx
+2021-12-03 12:22:21 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:22:21 INFO  UploadDocument:51 - Doctype is Others
+2021-12-03 12:22:21 INFO  UploadDocument:80 - Before pdf check, file extension is: docx
+2021-12-03 12:22:21 INFO  UploadDocument:90 - Number of pages before OD call:1
+2021-12-03 12:22:21 ERROR UploadDocument:146 - ISPack.ISUtil.JPISException: AddDocument_MT : Specified File : Jenkins email notification document.docx not found.
+2021-12-03 12:22:21 INFO  DriverClass:21 - File :: Jenkins email notification document.pdf
+2021-12-03 12:22:21 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:22:21 INFO  UploadDocument:80 - Before pdf check, file extension is: pdf
+2021-12-03 12:22:21 INFO  UploadDocument:82 - PDF check true
+2021-12-03 12:22:21 INFO  UploadDocument:84 - PDF Loaded
+2021-12-03 12:22:21 INFO  UploadDocument:86 - PDF number of pages:3
+2021-12-03 12:22:21 INFO  UploadDocument:90 - Number of pages before OD call:3
+2021-12-03 12:22:21 ERROR UploadDocument:146 - ISPack.ISUtil.JPISException: AddDocument_MT : Specified File : Jenkins email notification document.pdf not found.
+2021-12-03 12:22:21 INFO  DriverClass:21 - File :: Orient Server Upgrade steps.xlsx
+2021-12-03 12:22:21 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:22:21 INFO  UploadDocument:51 - Doctype is Others
+2021-12-03 12:22:21 INFO  UploadDocument:80 - Before pdf check, file extension is: xlsx
+2021-12-03 12:22:21 INFO  UploadDocument:90 - Number of pages before OD call:1
+2021-12-03 12:22:21 ERROR UploadDocument:146 - ISPack.ISUtil.JPISException: AddDocument_MT : Specified File : Orient Server Upgrade steps.xlsx not found.
+2021-12-03 12:23:54 INFO  DriverClass:19 - Session Id :: -540964095
+2021-12-03 12:23:54 INFO  DriverClass:21 - File :: Jenkins email notification document.docx
+2021-12-03 12:23:54 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Jenkins email notification document.docx
+2021-12-03 12:23:54 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:23:54 INFO  UploadDocument:51 - Doctype is Others
+2021-12-03 12:23:54 INFO  UploadDocument:80 - Before pdf check, file extension is: docx
+2021-12-03 12:23:54 INFO  UploadDocument:90 - Number of pages before OD call:1
+2021-12-03 12:23:54 ERROR UploadDocument:146 - ISPack.ISUtil.JPISException: AddDocument_MT : Specified File : Jenkins email notification document.docx not found.
+2021-12-03 12:23:54 INFO  DriverClass:21 - File :: Jenkins email notification document.pdf
+2021-12-03 12:23:54 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Jenkins email notification document.pdf
+2021-12-03 12:23:54 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:23:54 INFO  UploadDocument:80 - Before pdf check, file extension is: pdf
+2021-12-03 12:23:54 INFO  UploadDocument:82 - PDF check true
+2021-12-03 12:23:54 INFO  UploadDocument:84 - PDF Loaded
+2021-12-03 12:23:54 INFO  UploadDocument:86 - PDF number of pages:3
+2021-12-03 12:23:54 INFO  UploadDocument:90 - Number of pages before OD call:3
+2021-12-03 12:23:54 ERROR UploadDocument:146 - ISPack.ISUtil.JPISException: AddDocument_MT : Specified File : Jenkins email notification document.pdf not found.
+2021-12-03 12:23:54 INFO  DriverClass:21 - File :: Orient Server Upgrade steps.xlsx
+2021-12-03 12:23:54 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Orient Server Upgrade steps.xlsx
+2021-12-03 12:23:54 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:23:54 INFO  UploadDocument:51 - Doctype is Others
+2021-12-03 12:23:54 INFO  UploadDocument:80 - Before pdf check, file extension is: xlsx
+2021-12-03 12:23:54 INFO  UploadDocument:90 - Number of pages before OD call:1
+2021-12-03 12:23:54 ERROR UploadDocument:146 - ISPack.ISUtil.JPISException: AddDocument_MT : Specified File : Orient Server Upgrade steps.xlsx not found.
+2021-12-03 12:24:55 INFO  DriverClass:19 - Session Id :: -1136136037
+2021-12-03 12:24:55 INFO  DriverClass:21 - File :: Jenkins email notification document.docx
+2021-12-03 12:24:55 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Jenkins email notification document.docx
+2021-12-03 12:24:55 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:24:55 INFO  UploadDocument:51 - Doctype is Others
+2021-12-03 12:24:55 INFO  UploadDocument:80 - Before pdf check, file extension is: docx
+2021-12-03 12:24:55 INFO  UploadDocument:90 - Number of pages before OD call:1
+2021-12-03 12:24:56 ERROR UploadDocument:146 - ISPack.ISUtil.JPISException: AddDocument_MT : Specified File : Jenkins email notification document.docx not found.
+2021-12-03 12:24:56 INFO  DriverClass:21 - File :: Jenkins email notification document.pdf
+2021-12-03 12:24:56 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Jenkins email notification document.pdf
+2021-12-03 12:24:56 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:24:56 INFO  UploadDocument:80 - Before pdf check, file extension is: pdf
+2021-12-03 12:24:56 INFO  UploadDocument:82 - PDF check true
+2021-12-03 12:24:56 INFO  UploadDocument:84 - PDF Loaded
+2021-12-03 12:24:56 INFO  UploadDocument:86 - PDF number of pages:3
+2021-12-03 12:24:56 INFO  UploadDocument:90 - Number of pages before OD call:3
+2021-12-03 12:24:56 ERROR UploadDocument:146 - ISPack.ISUtil.JPISException: AddDocument_MT : Specified File : Jenkins email notification document.pdf not found.
+2021-12-03 12:24:56 INFO  DriverClass:21 - File :: Orient Server Upgrade steps.xlsx
+2021-12-03 12:24:56 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Orient Server Upgrade steps.xlsx
+2021-12-03 12:24:56 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:24:56 INFO  UploadDocument:51 - Doctype is Others
+2021-12-03 12:24:56 INFO  UploadDocument:80 - Before pdf check, file extension is: xlsx
+2021-12-03 12:24:56 INFO  UploadDocument:90 - Number of pages before OD call:1
+2021-12-03 12:24:56 ERROR UploadDocument:146 - ISPack.ISUtil.JPISException: AddDocument_MT : Specified File : Orient Server Upgrade steps.xlsx not found.
+2021-12-03 12:26:06 INFO  DriverClass:19 - Session Id :: 2069224245
+2021-12-03 12:26:06 INFO  DriverClass:21 - File :: Jenkins email notification document.docx
+2021-12-03 12:26:06 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Jenkins email notification document.docx
+2021-12-03 12:26:06 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:26:06 INFO  UploadDocument:51 - Doctype is Others
+2021-12-03 12:26:06 INFO  UploadDocument:80 - Before pdf check, file extension is: docx
+2021-12-03 12:26:06 INFO  UploadDocument:90 - Number of pages before OD call:1
+2021-12-03 12:26:09 ERROR UploadDocument:146 - ISPack.ISUtil.JPISException: SMS[Connect] Err Msg: Connection refused, SMS server may not be running or the port number may be incorrect [Connection refused: connect]SMSAddress 127.0.0.1 Port  900
+2021-12-03 12:26:09 INFO  DriverClass:21 - File :: Jenkins email notification document.pdf
+2021-12-03 12:26:09 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Jenkins email notification document.pdf
+2021-12-03 12:26:09 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:26:09 INFO  UploadDocument:80 - Before pdf check, file extension is: pdf
+2021-12-03 12:26:09 INFO  UploadDocument:82 - PDF check true
+2021-12-03 12:26:09 INFO  UploadDocument:84 - PDF Loaded
+2021-12-03 12:26:09 INFO  UploadDocument:86 - PDF number of pages:3
+2021-12-03 12:26:09 INFO  UploadDocument:90 - Number of pages before OD call:3
+2021-12-03 12:26:11 ERROR UploadDocument:146 - ISPack.ISUtil.JPISException: SMS[Connect] Err Msg: Connection refused, SMS server may not be running or the port number may be incorrect [Connection refused: connect]SMSAddress 127.0.0.1 Port  900
+2021-12-03 12:26:11 INFO  DriverClass:21 - File :: Orient Server Upgrade steps.xlsx
+2021-12-03 12:26:11 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Orient Server Upgrade steps.xlsx
+2021-12-03 12:26:11 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:26:11 INFO  UploadDocument:51 - Doctype is Others
+2021-12-03 12:26:11 INFO  UploadDocument:80 - Before pdf check, file extension is: xlsx
+2021-12-03 12:26:11 INFO  UploadDocument:90 - Number of pages before OD call:1
+2021-12-03 12:26:13 ERROR UploadDocument:146 - ISPack.ISUtil.JPISException: SMS[Connect] Err Msg: Connection refused, SMS server may not be running or the port number may be incorrect [Connection refused: connect]SMSAddress 127.0.0.1 Port  900
+2021-12-03 12:28:17 INFO  DriverClass:19 - Session Id :: -1900481605
+2021-12-03 12:28:18 INFO  DriverClass:21 - File :: Jenkins email notification document.docx
+2021-12-03 12:28:18 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Jenkins email notification document.docx
+2021-12-03 12:28:18 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:28:18 INFO  UploadDocument:51 - Doctype is Others
+2021-12-03 12:28:18 INFO  UploadDocument:80 - Before pdf check, file extension is: docx
+2021-12-03 12:28:18 INFO  UploadDocument:90 - Number of pages before OD call:1
+2021-12-03 12:28:19 INFO  UploadDocument:111 - DocIndex :185 /isIndex :185#1
+2021-12-03 12:28:19 INFO  UploadDocument:116 - INPUT XML : 
+<?xml version="1.0"?><NGOAddDocument_Input><Option>NGOAddDocument</Option><CabinetName>gmmco</CabinetName><UserDBId>-1900481605</UserDBId><GroupIndex></GroupIndex><Document><ParentFolderIndex>1540</ParentFolderIndex><NoOfPages>1</NoOfPages><AccessType>S</AccessType><DocumentName>Jenkins email notification document</DocumentName><CreationDateTime></CreationDateTime><ExpiryDateTime></ExpiryDateTime><VersionFlag>N</VersionFlag><DocumentType>N</DocumentType><DocumentSize>121601</DocumentSize><CreatedByApp></CreatedByApp><CreatedByAppName>docx</CreatedByAppName><ISIndex>185#1</ISIndex><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><Comment></Comment><Author></Author><OwnerIndex>1</OwnerIndex><EnableLog>Y</EnableLog><FTSFlag>PP</FTSFlag><NameLength>255</NameLength></Document></NGOAddDocument_Input>
+2021-12-03 12:28:19 INFO  UploadDocument:119 - OUTPUT XML : 
+<?xml version="1.0"?>
+<NGOAddDocument_Output>
+<Option>NGOAddDocument</Option>
+<Status>0</Status><UserDBId>-1900481605</UserDBId><LoginUserIndex>1</LoginUserIndex><Document>
+<LoginUserRights>111111111111</LoginUserRights><ParentFolderIndex>1540</ParentFolderIndex><DocOrderNo>1</DocOrderNo><DocumentIndex>347</DocumentIndex><DocumentVersionNo>1.0</DocumentVersionNo><DocumentName>Jenkins email notification document</DocumentName><OwnerIndex>1</OwnerIndex><CreationDateTime>2021-12-03 12:28:19.527</CreationDateTime><RevisedDateTime>2021-12-03 12:28:19.527</RevisedDateTime><AccessDateTime>2021-12-03 12:28:19.527</AccessDateTime><VersionFlag>N</VersionFlag><AccessType>S</AccessType><DocumentType>N</DocumentType><CreatedByApp>0</CreatedByApp><ISIndex>185#1#</ISIndex><NoOfPages>1</NoOfPages><DocumentSize>121601</DocumentSize><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><EnableLog>Y</EnableLog><DocumentLock>N</DocumentLock><Comment></Comment><Author>Supervisor</Author><TextISIndex>0#0#</TextISIndex><FTSFlag>PP</FTSFlag><DocStatus>A</DocStatus><ExpiryDateTime>2121-12-03 12:28:19.527</ExpiryDateTime><FinalizedFlag>N</FinalizedFlag><FinalizedDateTime>2121-12-03 12:28:19.527</FinalizedDateTime><CheckoutStatus>N</CheckoutStatus><PhysicalLocation></PhysicalLocation><ACLMoreFlag>N</ACLMoreFlag><PullPrintFlag>N</PullPrintFlag><MainGroupIndex>0</MainGroupIndex><ThumbNailFlag>N</ThumbNailFlag><ISSecureFlag>N</ISSecureFlag><SignFlag>N</SignFlag><Hierarchy>0.</Hierarchy><Owner>Supervisor</Owner><LockByUser>NULL</LockByUser><FinalizedBy>NULL</FinalizedBy><CheckoutBy>NULL</CheckoutBy><CreatedByAppName>docx</CreatedByAppName><OwnerType>U</OwnerType><GlobalIndexes>
+<Fields>
+</Fields>
+</GlobalIndexes>
+</Document>
+</NGOAddDocument_Output>
+
+2021-12-03 12:28:19 INFO  UploadDocument:122 - Completed Document Upload Call
+2021-12-03 12:28:19 INFO  UploadDocument:143 - File Delete Operation : true
+2021-12-03 12:28:19 INFO  DriverClass:21 - File :: Jenkins email notification document.pdf
+2021-12-03 12:28:19 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Jenkins email notification document.pdf
+2021-12-03 12:28:19 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:28:19 INFO  UploadDocument:80 - Before pdf check, file extension is: pdf
+2021-12-03 12:28:19 INFO  UploadDocument:82 - PDF check true
+2021-12-03 12:28:19 INFO  UploadDocument:84 - PDF Loaded
+2021-12-03 12:28:19 INFO  UploadDocument:86 - PDF number of pages:3
+2021-12-03 12:28:19 INFO  UploadDocument:90 - Number of pages before OD call:3
+2021-12-03 12:28:20 INFO  UploadDocument:111 - DocIndex :186 /isIndex :186#1
+2021-12-03 12:28:20 INFO  UploadDocument:116 - INPUT XML : 
+<?xml version="1.0"?><NGOAddDocument_Input><Option>NGOAddDocument</Option><CabinetName>gmmco</CabinetName><UserDBId>-1900481605</UserDBId><GroupIndex></GroupIndex><Document><ParentFolderIndex>1540</ParentFolderIndex><NoOfPages>3</NoOfPages><AccessType>S</AccessType><DocumentName>Jenkins email notification document</DocumentName><CreationDateTime></CreationDateTime><ExpiryDateTime></ExpiryDateTime><VersionFlag>N</VersionFlag><DocumentType>I</DocumentType><DocumentSize>467737</DocumentSize><CreatedByApp></CreatedByApp><CreatedByAppName>pdf</CreatedByAppName><ISIndex>186#1</ISIndex><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><Comment></Comment><Author></Author><OwnerIndex>1</OwnerIndex><EnableLog>Y</EnableLog><FTSFlag>PP</FTSFlag><NameLength>255</NameLength></Document></NGOAddDocument_Input>
+2021-12-03 12:28:20 INFO  UploadDocument:119 - OUTPUT XML : 
+<?xml version="1.0"?>
+<NGOAddDocument_Output>
+<Option>NGOAddDocument</Option>
+<Status>0</Status><UserDBId>-1900481605</UserDBId><LoginUserIndex>1</LoginUserIndex><Document>
+<LoginUserRights>111111111111</LoginUserRights><ParentFolderIndex>1540</ParentFolderIndex><DocOrderNo>2</DocOrderNo><DocumentIndex>348</DocumentIndex><DocumentVersionNo>1.0</DocumentVersionNo><DocumentName>Jenkins email notification document</DocumentName><OwnerIndex>1</OwnerIndex><CreationDateTime>2021-12-03 12:28:20.65</CreationDateTime><RevisedDateTime>2021-12-03 12:28:20.65</RevisedDateTime><AccessDateTime>2021-12-03 12:28:20.65</AccessDateTime><VersionFlag>N</VersionFlag><AccessType>S</AccessType><DocumentType>I</DocumentType><CreatedByApp>0</CreatedByApp><ISIndex>186#1#</ISIndex><NoOfPages>3</NoOfPages><DocumentSize>467737</DocumentSize><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><EnableLog>Y</EnableLog><DocumentLock>N</DocumentLock><Comment></Comment><Author>Supervisor</Author><TextISIndex>0#0#</TextISIndex><FTSFlag>PP</FTSFlag><DocStatus>A</DocStatus><ExpiryDateTime>2121-12-03 12:28:20.65</ExpiryDateTime><FinalizedFlag>N</FinalizedFlag><FinalizedDateTime>2121-12-03 12:28:20.65</FinalizedDateTime><CheckoutStatus>N</CheckoutStatus><PhysicalLocation></PhysicalLocation><ACLMoreFlag>N</ACLMoreFlag><PullPrintFlag>N</PullPrintFlag><MainGroupIndex>0</MainGroupIndex><ThumbNailFlag>N</ThumbNailFlag><ISSecureFlag>N</ISSecureFlag><SignFlag>N</SignFlag><Hierarchy>0.</Hierarchy><Owner>Supervisor</Owner><LockByUser>NULL</LockByUser><FinalizedBy>NULL</FinalizedBy><CheckoutBy>NULL</CheckoutBy><CreatedByAppName>pdf</CreatedByAppName><OwnerType>U</OwnerType><GlobalIndexes>
+<Fields>
+</Fields>
+</GlobalIndexes>
+</Document>
+</NGOAddDocument_Output>
+
+2021-12-03 12:28:20 INFO  UploadDocument:122 - Completed Document Upload Call
+2021-12-03 12:28:20 INFO  UploadDocument:143 - File Delete Operation : true
+2021-12-03 12:28:20 INFO  DriverClass:21 - File :: Orient Server Upgrade steps.xlsx
+2021-12-03 12:28:20 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Orient Server Upgrade steps.xlsx
+2021-12-03 12:28:20 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:28:20 INFO  UploadDocument:51 - Doctype is Others
+2021-12-03 12:28:20 INFO  UploadDocument:80 - Before pdf check, file extension is: xlsx
+2021-12-03 12:28:20 INFO  UploadDocument:90 - Number of pages before OD call:1
+2021-12-03 12:28:20 INFO  UploadDocument:111 - DocIndex :187 /isIndex :187#1
+2021-12-03 12:28:20 INFO  UploadDocument:116 - INPUT XML : 
+<?xml version="1.0"?><NGOAddDocument_Input><Option>NGOAddDocument</Option><CabinetName>gmmco</CabinetName><UserDBId>-1900481605</UserDBId><GroupIndex></GroupIndex><Document><ParentFolderIndex>1540</ParentFolderIndex><NoOfPages>1</NoOfPages><AccessType>S</AccessType><DocumentName>Orient Server Upgrade steps</DocumentName><CreationDateTime></CreationDateTime><ExpiryDateTime></ExpiryDateTime><VersionFlag>N</VersionFlag><DocumentType>N</DocumentType><DocumentSize>10900</DocumentSize><CreatedByApp></CreatedByApp><CreatedByAppName>xlsx</CreatedByAppName><ISIndex>187#1</ISIndex><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><Comment></Comment><Author></Author><OwnerIndex>1</OwnerIndex><EnableLog>Y</EnableLog><FTSFlag>PP</FTSFlag><NameLength>255</NameLength></Document></NGOAddDocument_Input>
+2021-12-03 12:28:20 INFO  UploadDocument:119 - OUTPUT XML : 
+<?xml version="1.0"?>
+<NGOAddDocument_Output>
+<Option>NGOAddDocument</Option>
+<Status>0</Status><UserDBId>-1900481605</UserDBId><LoginUserIndex>1</LoginUserIndex><Document>
+<LoginUserRights>111111111111</LoginUserRights><ParentFolderIndex>1540</ParentFolderIndex><DocOrderNo>3</DocOrderNo><DocumentIndex>349</DocumentIndex><DocumentVersionNo>1.0</DocumentVersionNo><DocumentName>Orient Server Upgrade steps</DocumentName><OwnerIndex>1</OwnerIndex><CreationDateTime>2021-12-03 12:28:21.293</CreationDateTime><RevisedDateTime>2021-12-03 12:28:21.293</RevisedDateTime><AccessDateTime>2021-12-03 12:28:21.293</AccessDateTime><VersionFlag>N</VersionFlag><AccessType>S</AccessType><DocumentType>N</DocumentType><CreatedByApp>0</CreatedByApp><ISIndex>187#1#</ISIndex><NoOfPages>1</NoOfPages><DocumentSize>10900</DocumentSize><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><EnableLog>Y</EnableLog><DocumentLock>N</DocumentLock><Comment></Comment><Author>Supervisor</Author><TextISIndex>0#0#</TextISIndex><FTSFlag>PP</FTSFlag><DocStatus>A</DocStatus><ExpiryDateTime>2121-12-03 12:28:21.293</ExpiryDateTime><FinalizedFlag>N</FinalizedFlag><FinalizedDateTime>2121-12-03 12:28:21.293</FinalizedDateTime><CheckoutStatus>N</CheckoutStatus><PhysicalLocation></PhysicalLocation><ACLMoreFlag>N</ACLMoreFlag><PullPrintFlag>N</PullPrintFlag><MainGroupIndex>0</MainGroupIndex><ThumbNailFlag>N</ThumbNailFlag><ISSecureFlag>N</ISSecureFlag><SignFlag>N</SignFlag><Hierarchy>0.</Hierarchy><Owner>Supervisor</Owner><LockByUser>NULL</LockByUser><FinalizedBy>NULL</FinalizedBy><CheckoutBy>NULL</CheckoutBy><CreatedByAppName>xlsx</CreatedByAppName><OwnerType>U</OwnerType><GlobalIndexes>
+<Fields>
+</Fields>
+</GlobalIndexes>
+</Document>
+</NGOAddDocument_Output>
+
+2021-12-03 12:28:20 INFO  UploadDocument:122 - Completed Document Upload Call
+2021-12-03 12:28:21 INFO  UploadDocument:143 - File Delete Operation : true
+2021-12-03 12:29:33 INFO  DriverClass:19 - Session Id :: 1306100972
+2021-12-03 12:31:55 INFO  DriverClass:19 - Session Id :: -1542373207
+2021-12-03 12:31:55 INFO  DriverClass:21 - File :: Jenkins email notification document.docx
+2021-12-03 12:31:55 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Jenkins email notification document.docx
+2021-12-03 12:31:55 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:31:55 INFO  UploadDocument:51 - Doctype is Others
+2021-12-03 12:31:55 INFO  UploadDocument:80 - Before pdf check, file extension is: docx
+2021-12-03 12:31:55 INFO  UploadDocument:90 - Number of pages before OD call:1
+2021-12-03 12:31:56 INFO  UploadDocument:111 - DocIndex :188 /isIndex :188#1
+2021-12-03 12:31:56 INFO  UploadDocument:116 - INPUT XML : 
+<?xml version="1.0"?><NGOAddDocument_Input><Option>NGOAddDocument</Option><CabinetName>gmmco</CabinetName><UserDBId>-1542373207</UserDBId><GroupIndex></GroupIndex><Document><ParentFolderIndex>1540</ParentFolderIndex><NoOfPages>1</NoOfPages><AccessType>S</AccessType><DocumentName>Jenkins email notification document</DocumentName><CreationDateTime></CreationDateTime><ExpiryDateTime></ExpiryDateTime><VersionFlag>N</VersionFlag><DocumentType>N</DocumentType><DocumentSize>121601</DocumentSize><CreatedByApp></CreatedByApp><CreatedByAppName>docx</CreatedByAppName><ISIndex>188#1</ISIndex><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><Comment></Comment><Author></Author><OwnerIndex>1</OwnerIndex><EnableLog>Y</EnableLog><FTSFlag>PP</FTSFlag><NameLength>255</NameLength></Document></NGOAddDocument_Input>
+2021-12-03 12:31:56 INFO  UploadDocument:119 - OUTPUT XML : 
+<?xml version="1.0"?>
+<NGOAddDocument_Output>
+<Option>NGOAddDocument</Option>
+<Status>0</Status><UserDBId>-1542373207</UserDBId><LoginUserIndex>1</LoginUserIndex><Document>
+<LoginUserRights>111111111111</LoginUserRights><ParentFolderIndex>1540</ParentFolderIndex><DocOrderNo>1</DocOrderNo><DocumentIndex>350</DocumentIndex><DocumentVersionNo>1.0</DocumentVersionNo><DocumentName>Jenkins email notification document</DocumentName><OwnerIndex>1</OwnerIndex><CreationDateTime>2021-12-03 12:31:57.25</CreationDateTime><RevisedDateTime>2021-12-03 12:31:57.25</RevisedDateTime><AccessDateTime>2021-12-03 12:31:57.25</AccessDateTime><VersionFlag>N</VersionFlag><AccessType>S</AccessType><DocumentType>N</DocumentType><CreatedByApp>0</CreatedByApp><ISIndex>188#1#</ISIndex><NoOfPages>1</NoOfPages><DocumentSize>121601</DocumentSize><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><EnableLog>Y</EnableLog><DocumentLock>N</DocumentLock><Comment></Comment><Author>Supervisor</Author><TextISIndex>0#0#</TextISIndex><FTSFlag>PP</FTSFlag><DocStatus>A</DocStatus><ExpiryDateTime>2121-12-03 12:31:57.25</ExpiryDateTime><FinalizedFlag>N</FinalizedFlag><FinalizedDateTime>2121-12-03 12:31:57.25</FinalizedDateTime><CheckoutStatus>N</CheckoutStatus><PhysicalLocation></PhysicalLocation><ACLMoreFlag>N</ACLMoreFlag><PullPrintFlag>N</PullPrintFlag><MainGroupIndex>0</MainGroupIndex><ThumbNailFlag>N</ThumbNailFlag><ISSecureFlag>N</ISSecureFlag><SignFlag>N</SignFlag><Hierarchy>0.</Hierarchy><Owner>Supervisor</Owner><LockByUser>NULL</LockByUser><FinalizedBy>NULL</FinalizedBy><CheckoutBy>NULL</CheckoutBy><CreatedByAppName>docx</CreatedByAppName><OwnerType>U</OwnerType><GlobalIndexes>
+<Fields>
+</Fields>
+</GlobalIndexes>
+</Document>
+</NGOAddDocument_Output>
+
+2021-12-03 12:31:56 INFO  UploadDocument:122 - Completed Document Upload Call
+2021-12-03 12:31:56 INFO  UploadDocument:143 - File Delete Operation : true
+2021-12-03 12:31:56 INFO  DriverClass:21 - File :: Jenkins email notification document.pdf
+2021-12-03 12:31:56 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Jenkins email notification document.pdf
+2021-12-03 12:31:56 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:31:56 INFO  UploadDocument:80 - Before pdf check, file extension is: pdf
+2021-12-03 12:31:56 INFO  UploadDocument:82 - PDF check true
+2021-12-03 12:31:57 INFO  UploadDocument:84 - PDF Loaded
+2021-12-03 12:31:57 INFO  UploadDocument:86 - PDF number of pages:3
+2021-12-03 12:31:57 INFO  UploadDocument:90 - Number of pages before OD call:3
+2021-12-03 12:31:57 INFO  UploadDocument:111 - DocIndex :189 /isIndex :189#1
+2021-12-03 12:31:57 INFO  UploadDocument:116 - INPUT XML : 
+<?xml version="1.0"?><NGOAddDocument_Input><Option>NGOAddDocument</Option><CabinetName>gmmco</CabinetName><UserDBId>-1542373207</UserDBId><GroupIndex></GroupIndex><Document><ParentFolderIndex>1540</ParentFolderIndex><NoOfPages>3</NoOfPages><AccessType>S</AccessType><DocumentName>Jenkins email notification document</DocumentName><CreationDateTime></CreationDateTime><ExpiryDateTime></ExpiryDateTime><VersionFlag>N</VersionFlag><DocumentType>I</DocumentType><DocumentSize>467737</DocumentSize><CreatedByApp></CreatedByApp><CreatedByAppName>pdf</CreatedByAppName><ISIndex>189#1</ISIndex><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><Comment></Comment><Author></Author><OwnerIndex>1</OwnerIndex><EnableLog>Y</EnableLog><FTSFlag>PP</FTSFlag><NameLength>255</NameLength></Document></NGOAddDocument_Input>
+2021-12-03 12:31:57 INFO  UploadDocument:119 - OUTPUT XML : 
+<?xml version="1.0"?>
+<NGOAddDocument_Output>
+<Option>NGOAddDocument</Option>
+<Status>0</Status><UserDBId>-1542373207</UserDBId><LoginUserIndex>1</LoginUserIndex><Document>
+<LoginUserRights>111111111111</LoginUserRights><ParentFolderIndex>1540</ParentFolderIndex><DocOrderNo>2</DocOrderNo><DocumentIndex>351</DocumentIndex><DocumentVersionNo>1.0</DocumentVersionNo><DocumentName>Jenkins email notification document</DocumentName><OwnerIndex>1</OwnerIndex><CreationDateTime>2021-12-03 12:31:58.283</CreationDateTime><RevisedDateTime>2021-12-03 12:31:58.283</RevisedDateTime><AccessDateTime>2021-12-03 12:31:58.283</AccessDateTime><VersionFlag>N</VersionFlag><AccessType>S</AccessType><DocumentType>I</DocumentType><CreatedByApp>0</CreatedByApp><ISIndex>189#1#</ISIndex><NoOfPages>3</NoOfPages><DocumentSize>467737</DocumentSize><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><EnableLog>Y</EnableLog><DocumentLock>N</DocumentLock><Comment></Comment><Author>Supervisor</Author><TextISIndex>0#0#</TextISIndex><FTSFlag>PP</FTSFlag><DocStatus>A</DocStatus><ExpiryDateTime>2121-12-03 12:31:58.283</ExpiryDateTime><FinalizedFlag>N</FinalizedFlag><FinalizedDateTime>2121-12-03 12:31:58.283</FinalizedDateTime><CheckoutStatus>N</CheckoutStatus><PhysicalLocation></PhysicalLocation><ACLMoreFlag>N</ACLMoreFlag><PullPrintFlag>N</PullPrintFlag><MainGroupIndex>0</MainGroupIndex><ThumbNailFlag>N</ThumbNailFlag><ISSecureFlag>N</ISSecureFlag><SignFlag>N</SignFlag><Hierarchy>0.</Hierarchy><Owner>Supervisor</Owner><LockByUser>NULL</LockByUser><FinalizedBy>NULL</FinalizedBy><CheckoutBy>NULL</CheckoutBy><CreatedByAppName>pdf</CreatedByAppName><OwnerType>U</OwnerType><GlobalIndexes>
+<Fields>
+</Fields>
+</GlobalIndexes>
+</Document>
+</NGOAddDocument_Output>
+
+2021-12-03 12:31:57 INFO  UploadDocument:122 - Completed Document Upload Call
+2021-12-03 12:31:57 INFO  UploadDocument:143 - File Delete Operation : true
+2021-12-03 12:31:57 INFO  DriverClass:21 - File :: Orient Server Upgrade steps.xlsx
+2021-12-03 12:31:57 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Orient Server Upgrade steps.xlsx
+2021-12-03 12:31:57 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-03 12:31:57 INFO  UploadDocument:51 - Doctype is Others
+2021-12-03 12:31:57 INFO  UploadDocument:80 - Before pdf check, file extension is: xlsx
+2021-12-03 12:31:57 INFO  UploadDocument:90 - Number of pages before OD call:1
+2021-12-03 12:31:58 INFO  UploadDocument:111 - DocIndex :190 /isIndex :190#1
+2021-12-03 12:31:58 INFO  UploadDocument:116 - INPUT XML : 
+<?xml version="1.0"?><NGOAddDocument_Input><Option>NGOAddDocument</Option><CabinetName>gmmco</CabinetName><UserDBId>-1542373207</UserDBId><GroupIndex></GroupIndex><Document><ParentFolderIndex>1540</ParentFolderIndex><NoOfPages>1</NoOfPages><AccessType>S</AccessType><DocumentName>Orient Server Upgrade steps</DocumentName><CreationDateTime></CreationDateTime><ExpiryDateTime></ExpiryDateTime><VersionFlag>N</VersionFlag><DocumentType>N</DocumentType><DocumentSize>10900</DocumentSize><CreatedByApp></CreatedByApp><CreatedByAppName>xlsx</CreatedByAppName><ISIndex>190#1</ISIndex><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><Comment></Comment><Author></Author><OwnerIndex>1</OwnerIndex><EnableLog>Y</EnableLog><FTSFlag>PP</FTSFlag><NameLength>255</NameLength></Document></NGOAddDocument_Input>
+2021-12-03 12:31:58 INFO  UploadDocument:119 - OUTPUT XML : 
+<?xml version="1.0"?>
+<NGOAddDocument_Output>
+<Option>NGOAddDocument</Option>
+<Status>0</Status><UserDBId>-1542373207</UserDBId><LoginUserIndex>1</LoginUserIndex><Document>
+<LoginUserRights>111111111111</LoginUserRights><ParentFolderIndex>1540</ParentFolderIndex><DocOrderNo>3</DocOrderNo><DocumentIndex>352</DocumentIndex><DocumentVersionNo>1.0</DocumentVersionNo><DocumentName>Orient Server Upgrade steps</DocumentName><OwnerIndex>1</OwnerIndex><CreationDateTime>2021-12-03 12:31:58.89</CreationDateTime><RevisedDateTime>2021-12-03 12:31:58.89</RevisedDateTime><AccessDateTime>2021-12-03 12:31:58.89</AccessDateTime><VersionFlag>N</VersionFlag><AccessType>S</AccessType><DocumentType>N</DocumentType><CreatedByApp>0</CreatedByApp><ISIndex>190#1#</ISIndex><NoOfPages>1</NoOfPages><DocumentSize>10900</DocumentSize><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><EnableLog>Y</EnableLog><DocumentLock>N</DocumentLock><Comment></Comment><Author>Supervisor</Author><TextISIndex>0#0#</TextISIndex><FTSFlag>PP</FTSFlag><DocStatus>A</DocStatus><ExpiryDateTime>2121-12-03 12:31:58.89</ExpiryDateTime><FinalizedFlag>N</FinalizedFlag><FinalizedDateTime>2121-12-03 12:31:58.89</FinalizedDateTime><CheckoutStatus>N</CheckoutStatus><PhysicalLocation></PhysicalLocation><ACLMoreFlag>N</ACLMoreFlag><PullPrintFlag>N</PullPrintFlag><MainGroupIndex>0</MainGroupIndex><ThumbNailFlag>N</ThumbNailFlag><ISSecureFlag>N</ISSecureFlag><SignFlag>N</SignFlag><Hierarchy>0.</Hierarchy><Owner>Supervisor</Owner><LockByUser>NULL</LockByUser><FinalizedBy>NULL</FinalizedBy><CheckoutBy>NULL</CheckoutBy><CreatedByAppName>xlsx</CreatedByAppName><OwnerType>U</OwnerType><GlobalIndexes>
+<Fields>
+</Fields>
+</GlobalIndexes>
+</Document>
+</NGOAddDocument_Output>
+
+2021-12-03 12:31:58 INFO  UploadDocument:122 - Completed Document Upload Call
+2021-12-03 12:31:58 INFO  UploadDocument:143 - File Delete Operation : true
+2021-12-07 12:16:09 INFO  DriverClass:19 - Session Id :: -1563978303
+2021-12-07 12:16:09 INFO  DriverClass:21 - File :: Jenkins email notification document.docx
+2021-12-07 12:16:09 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Jenkins email notification document.docx
+2021-12-07 12:16:09 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-07 12:16:09 INFO  UploadDocument:51 - Doctype is Others
+2021-12-07 12:16:09 INFO  UploadDocument:80 - Before pdf check, file extension is: docx
+2021-12-07 12:16:09 INFO  UploadDocument:90 - Number of pages before OD call:1
+2021-12-07 12:16:10 INFO  UploadDocument:111 - DocIndex :191 /isIndex :191#1
+2021-12-07 12:16:10 INFO  UploadDocument:116 - INPUT XML : 
+<?xml version="1.0"?><NGOAddDocument_Input><Option>NGOAddDocument</Option><CabinetName>gmmco</CabinetName><UserDBId>-1563978303</UserDBId><GroupIndex></GroupIndex><Document><ParentFolderIndex>1540</ParentFolderIndex><NoOfPages>1</NoOfPages><AccessType>S</AccessType><DocumentName>Jenkins email notification document</DocumentName><CreationDateTime></CreationDateTime><ExpiryDateTime></ExpiryDateTime><VersionFlag>N</VersionFlag><DocumentType>N</DocumentType><DocumentSize>121601</DocumentSize><CreatedByApp></CreatedByApp><CreatedByAppName>docx</CreatedByAppName><ISIndex>191#1</ISIndex><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><Comment></Comment><Author></Author><OwnerIndex>1</OwnerIndex><EnableLog>Y</EnableLog><FTSFlag>PP</FTSFlag><NameLength>255</NameLength></Document></NGOAddDocument_Input>
+2021-12-07 12:16:10 INFO  UploadDocument:119 - OUTPUT XML : 
+<?xml version="1.0"?>
+<NGOAddDocument_Output>
+<Option>NGOAddDocument</Option>
+<Status>0</Status><UserDBId>-1563978303</UserDBId><LoginUserIndex>1</LoginUserIndex><Document>
+<LoginUserRights>111111111111</LoginUserRights><ParentFolderIndex>1540</ParentFolderIndex><DocOrderNo>1</DocOrderNo><DocumentIndex>354</DocumentIndex><DocumentVersionNo>1.0</DocumentVersionNo><DocumentName>Jenkins email notification document</DocumentName><OwnerIndex>1</OwnerIndex><CreationDateTime>2021-12-07 12:16:10.377</CreationDateTime><RevisedDateTime>2021-12-07 12:16:10.377</RevisedDateTime><AccessDateTime>2021-12-07 12:16:10.377</AccessDateTime><VersionFlag>N</VersionFlag><AccessType>S</AccessType><DocumentType>N</DocumentType><CreatedByApp>0</CreatedByApp><ISIndex>191#1#</ISIndex><NoOfPages>1</NoOfPages><DocumentSize>121601</DocumentSize><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><EnableLog>Y</EnableLog><DocumentLock>N</DocumentLock><Comment></Comment><Author>Supervisor</Author><TextISIndex>0#0#</TextISIndex><FTSFlag>PP</FTSFlag><DocStatus>A</DocStatus><ExpiryDateTime>2121-12-07 12:16:10.377</ExpiryDateTime><FinalizedFlag>N</FinalizedFlag><FinalizedDateTime>2121-12-07 12:16:10.377</FinalizedDateTime><CheckoutStatus>N</CheckoutStatus><PhysicalLocation></PhysicalLocation><ACLMoreFlag>N</ACLMoreFlag><PullPrintFlag>N</PullPrintFlag><MainGroupIndex>0</MainGroupIndex><ThumbNailFlag>N</ThumbNailFlag><ISSecureFlag>N</ISSecureFlag><SignFlag>N</SignFlag><Hierarchy>0.</Hierarchy><Owner>Supervisor</Owner><LockByUser>NULL</LockByUser><FinalizedBy>NULL</FinalizedBy><CheckoutBy>NULL</CheckoutBy><CreatedByAppName>docx</CreatedByAppName><OwnerType>U</OwnerType><GlobalIndexes>
+<Fields>
+</Fields>
+</GlobalIndexes>
+</Document>
+</NGOAddDocument_Output>
+
+2021-12-07 12:16:10 INFO  UploadDocument:122 - Completed Document Upload Call
+2021-12-07 12:16:10 INFO  UploadDocument:143 - File Delete Operation : true
+2021-12-07 12:16:10 INFO  DriverClass:21 - File :: Jenkins email notification document.pdf
+2021-12-07 12:16:10 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Jenkins email notification document.pdf
+2021-12-07 12:16:10 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-07 12:16:10 INFO  UploadDocument:80 - Before pdf check, file extension is: pdf
+2021-12-07 12:16:10 INFO  UploadDocument:82 - PDF check true
+2021-12-07 12:16:10 INFO  UploadDocument:84 - PDF Loaded
+2021-12-07 12:16:10 INFO  UploadDocument:86 - PDF number of pages:3
+2021-12-07 12:16:10 INFO  UploadDocument:90 - Number of pages before OD call:3
+2021-12-07 12:16:11 INFO  UploadDocument:111 - DocIndex :192 /isIndex :192#1
+2021-12-07 12:16:11 INFO  UploadDocument:116 - INPUT XML : 
+<?xml version="1.0"?><NGOAddDocument_Input><Option>NGOAddDocument</Option><CabinetName>gmmco</CabinetName><UserDBId>-1563978303</UserDBId><GroupIndex></GroupIndex><Document><ParentFolderIndex>1540</ParentFolderIndex><NoOfPages>3</NoOfPages><AccessType>S</AccessType><DocumentName>Jenkins email notification document</DocumentName><CreationDateTime></CreationDateTime><ExpiryDateTime></ExpiryDateTime><VersionFlag>N</VersionFlag><DocumentType>I</DocumentType><DocumentSize>467737</DocumentSize><CreatedByApp></CreatedByApp><CreatedByAppName>pdf</CreatedByAppName><ISIndex>192#1</ISIndex><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><Comment></Comment><Author></Author><OwnerIndex>1</OwnerIndex><EnableLog>Y</EnableLog><FTSFlag>PP</FTSFlag><NameLength>255</NameLength></Document></NGOAddDocument_Input>
+2021-12-07 12:16:11 INFO  UploadDocument:119 - OUTPUT XML : 
+<?xml version="1.0"?>
+<NGOAddDocument_Output>
+<Option>NGOAddDocument</Option>
+<Status>0</Status><UserDBId>-1563978303</UserDBId><LoginUserIndex>1</LoginUserIndex><Document>
+<LoginUserRights>111111111111</LoginUserRights><ParentFolderIndex>1540</ParentFolderIndex><DocOrderNo>2</DocOrderNo><DocumentIndex>355</DocumentIndex><DocumentVersionNo>1.0</DocumentVersionNo><DocumentName>Jenkins email notification document</DocumentName><OwnerIndex>1</OwnerIndex><CreationDateTime>2021-12-07 12:16:11.487</CreationDateTime><RevisedDateTime>2021-12-07 12:16:11.487</RevisedDateTime><AccessDateTime>2021-12-07 12:16:11.487</AccessDateTime><VersionFlag>N</VersionFlag><AccessType>S</AccessType><DocumentType>I</DocumentType><CreatedByApp>0</CreatedByApp><ISIndex>192#1#</ISIndex><NoOfPages>3</NoOfPages><DocumentSize>467737</DocumentSize><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><EnableLog>Y</EnableLog><DocumentLock>N</DocumentLock><Comment></Comment><Author>Supervisor</Author><TextISIndex>0#0#</TextISIndex><FTSFlag>PP</FTSFlag><DocStatus>A</DocStatus><ExpiryDateTime>2121-12-07 12:16:11.487</ExpiryDateTime><FinalizedFlag>N</FinalizedFlag><FinalizedDateTime>2121-12-07 12:16:11.487</FinalizedDateTime><CheckoutStatus>N</CheckoutStatus><PhysicalLocation></PhysicalLocation><ACLMoreFlag>N</ACLMoreFlag><PullPrintFlag>N</PullPrintFlag><MainGroupIndex>0</MainGroupIndex><ThumbNailFlag>N</ThumbNailFlag><ISSecureFlag>N</ISSecureFlag><SignFlag>N</SignFlag><Hierarchy>0.</Hierarchy><Owner>Supervisor</Owner><LockByUser>NULL</LockByUser><FinalizedBy>NULL</FinalizedBy><CheckoutBy>NULL</CheckoutBy><CreatedByAppName>pdf</CreatedByAppName><OwnerType>U</OwnerType><GlobalIndexes>
+<Fields>
+</Fields>
+</GlobalIndexes>
+</Document>
+</NGOAddDocument_Output>
+
+2021-12-07 12:16:11 INFO  UploadDocument:122 - Completed Document Upload Call
+2021-12-07 12:16:11 INFO  UploadDocument:143 - File Delete Operation : true
+2021-12-07 12:16:11 INFO  DriverClass:21 - File :: Orient Server Upgrade steps.xlsx
+2021-12-07 12:16:11 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\Orient Server Upgrade steps.xlsx
+2021-12-07 12:16:11 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-07 12:16:11 INFO  UploadDocument:51 - Doctype is Others
+2021-12-07 12:16:11 INFO  UploadDocument:80 - Before pdf check, file extension is: xlsx
+2021-12-07 12:16:11 INFO  UploadDocument:90 - Number of pages before OD call:1
+2021-12-07 12:16:12 INFO  UploadDocument:111 - DocIndex :193 /isIndex :193#1
+2021-12-07 12:16:12 INFO  UploadDocument:116 - INPUT XML : 
+<?xml version="1.0"?><NGOAddDocument_Input><Option>NGOAddDocument</Option><CabinetName>gmmco</CabinetName><UserDBId>-1563978303</UserDBId><GroupIndex></GroupIndex><Document><ParentFolderIndex>1540</ParentFolderIndex><NoOfPages>1</NoOfPages><AccessType>S</AccessType><DocumentName>Orient Server Upgrade steps</DocumentName><CreationDateTime></CreationDateTime><ExpiryDateTime></ExpiryDateTime><VersionFlag>N</VersionFlag><DocumentType>N</DocumentType><DocumentSize>10900</DocumentSize><CreatedByApp></CreatedByApp><CreatedByAppName>xlsx</CreatedByAppName><ISIndex>193#1</ISIndex><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><Comment></Comment><Author></Author><OwnerIndex>1</OwnerIndex><EnableLog>Y</EnableLog><FTSFlag>PP</FTSFlag><NameLength>255</NameLength></Document></NGOAddDocument_Input>
+2021-12-07 12:16:12 INFO  UploadDocument:119 - OUTPUT XML : 
+<?xml version="1.0"?>
+<NGOAddDocument_Output>
+<Option>NGOAddDocument</Option>
+<Status>0</Status><UserDBId>-1563978303</UserDBId><LoginUserIndex>1</LoginUserIndex><Document>
+<LoginUserRights>111111111111</LoginUserRights><ParentFolderIndex>1540</ParentFolderIndex><DocOrderNo>3</DocOrderNo><DocumentIndex>356</DocumentIndex><DocumentVersionNo>1.0</DocumentVersionNo><DocumentName>Orient Server Upgrade steps</DocumentName><OwnerIndex>1</OwnerIndex><CreationDateTime>2021-12-07 12:16:12.11</CreationDateTime><RevisedDateTime>2021-12-07 12:16:12.11</RevisedDateTime><AccessDateTime>2021-12-07 12:16:12.11</AccessDateTime><VersionFlag>N</VersionFlag><AccessType>S</AccessType><DocumentType>N</DocumentType><CreatedByApp>0</CreatedByApp><ISIndex>193#1#</ISIndex><NoOfPages>1</NoOfPages><DocumentSize>10900</DocumentSize><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><EnableLog>Y</EnableLog><DocumentLock>N</DocumentLock><Comment></Comment><Author>Supervisor</Author><TextISIndex>0#0#</TextISIndex><FTSFlag>PP</FTSFlag><DocStatus>A</DocStatus><ExpiryDateTime>2121-12-07 12:16:12.11</ExpiryDateTime><FinalizedFlag>N</FinalizedFlag><FinalizedDateTime>2121-12-07 12:16:12.11</FinalizedDateTime><CheckoutStatus>N</CheckoutStatus><PhysicalLocation></PhysicalLocation><ACLMoreFlag>N</ACLMoreFlag><PullPrintFlag>N</PullPrintFlag><MainGroupIndex>0</MainGroupIndex><ThumbNailFlag>N</ThumbNailFlag><ISSecureFlag>N</ISSecureFlag><SignFlag>N</SignFlag><Hierarchy>0.</Hierarchy><Owner>Supervisor</Owner><LockByUser>NULL</LockByUser><FinalizedBy>NULL</FinalizedBy><CheckoutBy>NULL</CheckoutBy><CreatedByAppName>xlsx</CreatedByAppName><OwnerType>U</OwnerType><GlobalIndexes>
+<Fields>
+</Fields>
+</GlobalIndexes>
+</Document>
+</NGOAddDocument_Output>
+
+2021-12-07 12:16:12 INFO  UploadDocument:122 - Completed Document Upload Call
+2021-12-07 12:16:12 INFO  UploadDocument:143 - File Delete Operation : true
+2021-12-07 12:22:25 INFO  DriverClass:19 - Session Id :: 861537566
+2021-12-07 12:22:25 INFO  DriverClass:21 - File :: M1$M2$M3.pdf
+2021-12-07 12:22:25 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\M1$M2$M3.pdf
+2021-12-07 12:22:25 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-07 12:22:25 INFO  UploadDocument:80 - Before pdf check, file extension is: pdf
+2021-12-07 12:22:25 INFO  UploadDocument:82 - PDF check true
+2021-12-07 12:22:25 INFO  UploadDocument:84 - PDF Loaded
+2021-12-07 12:22:25 INFO  UploadDocument:86 - PDF number of pages:3
+2021-12-07 12:22:25 INFO  UploadDocument:90 - Number of pages before OD call:3
+2021-12-07 12:22:26 INFO  UploadDocument:111 - DocIndex :194 /isIndex :194#1
+2021-12-07 12:22:26 INFO  UploadDocument:116 - INPUT XML : 
+<?xml version="1.0"?><NGOAddDocument_Input><Option>NGOAddDocument</Option><CabinetName>gmmco</CabinetName><UserDBId>861537566</UserDBId><GroupIndex></GroupIndex><Document><ParentFolderIndex>1540</ParentFolderIndex><NoOfPages>3</NoOfPages><AccessType>S</AccessType><DocumentName>M1$M2$M3</DocumentName><CreationDateTime></CreationDateTime><ExpiryDateTime></ExpiryDateTime><VersionFlag>N</VersionFlag><DocumentType>I</DocumentType><DocumentSize>467737</DocumentSize><CreatedByApp></CreatedByApp><CreatedByAppName>pdf</CreatedByAppName><ISIndex>194#1</ISIndex><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><Comment></Comment><Author></Author><OwnerIndex>1</OwnerIndex><EnableLog>Y</EnableLog><FTSFlag>PP</FTSFlag><NameLength>255</NameLength></Document></NGOAddDocument_Input>
+2021-12-07 12:22:26 INFO  UploadDocument:119 - OUTPUT XML : 
+<?xml version="1.0"?>
+<NGOAddDocument_Output>
+<Option>NGOAddDocument</Option>
+<Status>0</Status><UserDBId>861537566</UserDBId><LoginUserIndex>1</LoginUserIndex><Document>
+<LoginUserRights>111111111111</LoginUserRights><ParentFolderIndex>1540</ParentFolderIndex><DocOrderNo>4</DocOrderNo><DocumentIndex>357</DocumentIndex><DocumentVersionNo>1.0</DocumentVersionNo><DocumentName>M1$M2$M3</DocumentName><OwnerIndex>1</OwnerIndex><CreationDateTime>2021-12-07 12:22:26.937</CreationDateTime><RevisedDateTime>2021-12-07 12:22:26.937</RevisedDateTime><AccessDateTime>2021-12-07 12:22:26.937</AccessDateTime><VersionFlag>N</VersionFlag><AccessType>S</AccessType><DocumentType>I</DocumentType><CreatedByApp>0</CreatedByApp><ISIndex>194#1#</ISIndex><NoOfPages>3</NoOfPages><DocumentSize>467737</DocumentSize><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><EnableLog>Y</EnableLog><DocumentLock>N</DocumentLock><Comment></Comment><Author>Supervisor</Author><TextISIndex>0#0#</TextISIndex><FTSFlag>PP</FTSFlag><DocStatus>A</DocStatus><ExpiryDateTime>2121-12-07 12:22:26.937</ExpiryDateTime><FinalizedFlag>N</FinalizedFlag><FinalizedDateTime>2121-12-07 12:22:26.937</FinalizedDateTime><CheckoutStatus>N</CheckoutStatus><PhysicalLocation></PhysicalLocation><ACLMoreFlag>N</ACLMoreFlag><PullPrintFlag>N</PullPrintFlag><MainGroupIndex>0</MainGroupIndex><ThumbNailFlag>N</ThumbNailFlag><ISSecureFlag>N</ISSecureFlag><SignFlag>N</SignFlag><Hierarchy>0.</Hierarchy><Owner>Supervisor</Owner><LockByUser>NULL</LockByUser><FinalizedBy>NULL</FinalizedBy><CheckoutBy>NULL</CheckoutBy><CreatedByAppName>pdf</CreatedByAppName><OwnerType>U</OwnerType><GlobalIndexes>
+<Fields>
+</Fields>
+</GlobalIndexes>
+</Document>
+</NGOAddDocument_Output>
+
+2021-12-07 12:22:26 INFO  UploadDocument:122 - Completed Document Upload Call
+2021-12-07 12:22:26 INFO  UploadDocument:143 - File Delete Operation : true
+2021-12-07 12:22:26 INFO  DriverClass:21 - File :: M1$M2$M3.xlsx
+2021-12-07 12:22:26 INFO  UploadDocument:62 - File XD:\documents\Orient Electric\M1$M2$M3.xlsx
+2021-12-07 12:22:26 INFO  UploadDocument:76 - Tracking Folder Index :1540
+2021-12-07 12:22:26 INFO  UploadDocument:51 - Doctype is Others
+2021-12-07 12:22:26 INFO  UploadDocument:80 - Before pdf check, file extension is: xlsx
+2021-12-07 12:22:26 INFO  UploadDocument:90 - Number of pages before OD call:1
+2021-12-07 12:22:27 INFO  UploadDocument:111 - DocIndex :195 /isIndex :195#1
+2021-12-07 12:22:27 INFO  UploadDocument:116 - INPUT XML : 
+<?xml version="1.0"?><NGOAddDocument_Input><Option>NGOAddDocument</Option><CabinetName>gmmco</CabinetName><UserDBId>861537566</UserDBId><GroupIndex></GroupIndex><Document><ParentFolderIndex>1540</ParentFolderIndex><NoOfPages>1</NoOfPages><AccessType>S</AccessType><DocumentName>M1$M2$M3</DocumentName><CreationDateTime></CreationDateTime><ExpiryDateTime></ExpiryDateTime><VersionFlag>N</VersionFlag><DocumentType>N</DocumentType><DocumentSize>10900</DocumentSize><CreatedByApp></CreatedByApp><CreatedByAppName>xlsx</CreatedByAppName><ISIndex>195#1</ISIndex><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><Comment></Comment><Author></Author><OwnerIndex>1</OwnerIndex><EnableLog>Y</EnableLog><FTSFlag>PP</FTSFlag><NameLength>255</NameLength></Document></NGOAddDocument_Input>
+2021-12-07 12:22:27 INFO  UploadDocument:119 - OUTPUT XML : 
+<?xml version="1.0"?>
+<NGOAddDocument_Output>
+<Option>NGOAddDocument</Option>
+<Status>0</Status><UserDBId>861537566</UserDBId><LoginUserIndex>1</LoginUserIndex><Document>
+<LoginUserRights>111111111111</LoginUserRights><ParentFolderIndex>1540</ParentFolderIndex><DocOrderNo>5</DocOrderNo><DocumentIndex>358</DocumentIndex><DocumentVersionNo>1.0</DocumentVersionNo><DocumentName>M1$M2$M3</DocumentName><OwnerIndex>1</OwnerIndex><CreationDateTime>2021-12-07 12:22:27.627</CreationDateTime><RevisedDateTime>2021-12-07 12:22:27.627</RevisedDateTime><AccessDateTime>2021-12-07 12:22:27.627</AccessDateTime><VersionFlag>N</VersionFlag><AccessType>S</AccessType><DocumentType>N</DocumentType><CreatedByApp>0</CreatedByApp><ISIndex>195#1#</ISIndex><NoOfPages>1</NoOfPages><DocumentSize>10900</DocumentSize><FTSDocumentIndex>0</FTSDocumentIndex><ODMADocumentIndex></ODMADocumentIndex><EnableLog>Y</EnableLog><DocumentLock>N</DocumentLock><Comment></Comment><Author>Supervisor</Author><TextISIndex>0#0#</TextISIndex><FTSFlag>PP</FTSFlag><DocStatus>A</DocStatus><ExpiryDateTime>2121-12-07 12:22:27.627</ExpiryDateTime><FinalizedFlag>N</FinalizedFlag><FinalizedDateTime>2121-12-07 12:22:27.627</FinalizedDateTime><CheckoutStatus>N</CheckoutStatus><PhysicalLocation></PhysicalLocation><ACLMoreFlag>N</ACLMoreFlag><PullPrintFlag>N</PullPrintFlag><MainGroupIndex>0</MainGroupIndex><ThumbNailFlag>N</ThumbNailFlag><ISSecureFlag>N</ISSecureFlag><SignFlag>N</SignFlag><Hierarchy>0.</Hierarchy><Owner>Supervisor</Owner><LockByUser>NULL</LockByUser><FinalizedBy>NULL</FinalizedBy><CheckoutBy>NULL</CheckoutBy><CreatedByAppName>xlsx</CreatedByAppName><OwnerType>U</OwnerType><GlobalIndexes>
+<Fields>
+</Fields>
+</GlobalIndexes>
+</Document>
+</NGOAddDocument_Output>
+
+2021-12-07 12:22:27 INFO  UploadDocument:122 - Completed Document Upload Call
+2021-12-07 12:22:27 INFO  UploadDocument:143 - File Delete Operation : true
